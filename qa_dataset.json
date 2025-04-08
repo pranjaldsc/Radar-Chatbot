@@ -1,0 +1,459 @@
+[
+    {"question": "hello", "answer": "Hi! How can I assist you?"},
+    {"question": "yes", "answer": "Please specify your query?"},
+    {"question": "no", "answer": "Thank you for Using Bhanje the chatbot, hope the bot was usefull to resolve your query"},
+    {"question": "hi", "answer": "Hello! How can I assist you?"},
+    {"question": "what is your name", "answer": "I am Bhanje your chatbot assistant."},
+    {"question": "what is AI", "answer": "Artificial Intelligence (AI) is the simulation of human intelligence in machines."},
+    
+    {
+        "question": "What is IEPF?",
+        "answer": "The Investor Education and Protection Fund (IEPF) is a fund set up by the Indian government to protect the interests of investors and promote investor awareness. It is primarily funded by unclaimed dividends, shares, and other amounts that have remained unclaimed by investors for a period of seven years."
+    },
+    {
+        "question": "Why companies should transfer the shares to IEPF?",
+        "answer": "Companies are legally obligated under Section 124 of the Companies Act, 2013 to transfer shares to the IEPF if they remain unclaimed for seven years. This ensures better governance and protects investor interests by preventing companies from misusing unclaimed assets."
+    },
+    {
+        "question": "Who is handling IEPF authority?",
+        "answer": "The IEPF authority is managed by the Ministry of Corporate Affairs, Government of India."
+    },
+    {
+        "question": "Are IEPF shares available with the company?",
+        "answer": "No, once shares are transferred to IEPF, they are no longer held by the company. They are under the custody of the IEPF authority."
+    },
+    {
+        "question": "When are shares transferred to the IEPF account?",
+        "answer": "Shares are transferred to the IEPF account after seven years of remaining unclaimed. This period starts from the date the dividend was declared or the shares were due for transfer."
+    },
+    {
+        "question": "What is the time period to claim shares in case shares are transferred to IEPF?",
+        "answer": "An investor can claim their shares from the IEPF anytime after they have been transferred. There is no specific time limit as such."
+    },
+    {
+        "question": "What are Unclaimed Shares?",
+        "answer": "Unclaimed shares are shares that have not been claimed by the shareholders. This can happen due to a number of reasons, including death, change of address, or loss of share certificates"
+    },
+    {
+        "question": "What is Unclaimed Dividend?",
+        "answer": "An unclaimed dividend is a dividend that a company has declared but a shareholder has not collected within the specified time."
+    },
+    {
+        "question": "What are Physical Shares?",
+        "answer": "Physical shares are share certificates issued in paper form as evidence of ownership. These are different from dematerialized shares which are held electronically."
+    },
+    {
+        "question": "When are shares transferred to the Suspense Account?",
+        "answer": "Shares are transferred to a Suspense Account when dividends remain unclaimed or unpaid for seven consecutive years or more. This is done in accordance with the Investor Education and Protection Fund (IEPF) Rules."
+    },
+    {
+        "question": "What is the Face Value of Shares?",
+        "answer": "The face value of a share is the original price of a share when it's first issued by a company. It's also known as the nominal or par value."
+    },
+    {
+        "question": "Is the Number of Shares Increased if the company has Split its Face Value?",
+        "answer": "Yes, when a company splits its face value (e.g., a share with a face value of Rs. 10 is split into 2 shares of Rs. 5 each), the number of shares increases proportionally, but the total value remains the same."
+    },
+    {
+        "question": "Is the Number of Shares Increased if the company has declared a Bonus Issue?",
+        "answer": "Yes, in a bonus issue, the company allots additional shares to existing shareholders for free, based on their existing holdings. This increases the number of shares held by each shareholder."
+    },
+    {
+        "question": "Can we directly file an IEPF Form for Claiming Shares?",
+        "answer": "Yes, you can directly file an IEPF Form (IEPF-5) for claiming your shares or dividend from the IEPF website."
+    },
+    {
+        "question": "What to do with the shares of your Father/Grandfather?",
+        "answer": "If the shares are still in physical form and not claimed for a long time, you need to first get them transmitted in your name through a legal process (like a will or succession certificate). After that, you can claim them from the company or IEPF, as applicable."
+    },
+    {
+        "question": "Who is RTA?",
+        "answer": "RTA stands for Registrar and Transfer Agent. They are appointed by companies to maintain shareholder records, handle share transfers, dividend payments, and other related activities."
+    },
+    {
+        "question": "What does RTA Do?",
+        "answer": "RTA's primary responsibilities include:\nMaintaining shareholder records.\nProcessing share transfers and transmissions.\nHandling dividend payments and reconciliation.\nIssuing share certificates (in physical form).\nDealing with shareholder queries and grievances."
+    },
+    {
+        "question": "What is a Dividend Warrant?",
+        "answer": "A dividend warrant is a document issued by a company to a shareholder as a payment for dividends. It is like a cheque and can be encashed at a bank."
+    },
+    {
+        "question": "What can we do if the Folio Number is not available but the Dividend Warrant is Available?",
+        "answer": "You should contact the company's RTA with the dividend warrant and request them to provide you with the folio number. They should be able to trace it based on the information on the warrant."
+    },
+    {
+        "question": "What is a Folio Number?",
+        "answer": "A folio number is a unique identification number assigned to each shareholder in the company's register. It helps in tracking their shareholding and transactions."
+    },
+    {
+        "question": "What is a Certificate Number?",
+        "answer": "A certificate number is a unique number assigned to each share certificate issued in physical form. It helps in identifying and tracking individual share certificates."
+    },
+    {
+        "question": "What is the 1st Step taken for Claiming Shares?",
+        "answer": "The first step is to ascertain the status of the shares (whether they are with the company, in the suspense account, or transferred to IEPF). Then, you need to gather all the necessary documents related to your shareholding and carry out KYC updation."
+    },
+    {
+        "question": "What is KYC Updation? What documents are required to submit for KYC Updation?",
+        "answer": "KYC (Know Your Customer) updation is the process of verifying the identity and address of the investor. Generally, you will need:\nIdentity proof (PAN card, Aadhaar card, Voter ID, etc.)\nAddress proof (Aadhaar card, Passport, Utility bills, etc.)\nCancelled cheque or bank account details\nProof of shareholding (share certificates, dividend warrants, etc.)"
+    },
+    {
+        "question": "Is a Demat Account Compulsory for Claiming back shares?",
+        "answer": "Yes, a Demat account is now mandatory for claiming shares from IEPF. The shares will be transferred to your Demat account after approval of your claim."
+    },
+    {
+        "question": "What is a Client Master List?",
+        "answer": "A client master list is a document maintained by the Depository Participant (DP) that contains all the details of the Demat account holders, including their personal information, PAN, address, and Demat account details."
+    },
+    {
+        "question": "What happens to the Unclaimed Dividend Amount?",
+        "answer": "if a dividend remains unclaimed by a shareholder, it is transferred to the Investor Education and Protection Fund (IEPF) after a specified period (usually seven years), where it can be claimed by the rightful owner by submitting a claim form to the relevant authorities managed by the Ministry of Corporate Affairs; essentially, the unclaimed dividend is not lost but held in a fund for potential future claims by the shareholder."
+    },
+    {
+        "question": "How and where to Open Demat Account?",
+        "answer": "You can open a Demat account with a SEBI-registered Depository Participant (DP). Many brokerage firms, banks, and financial institutions act as DPs. The process usually involves filling out an account opening form, submitting KYC documents (PAN card, address proof, etc.), and agreeing to the terms and conditions. You can open a Demat account online or offline."
+    },
+    {
+        "question": "Does shares jointly held by people require their demat account in joint name? How many Holders in One demat account?",
+        "answer": "Yes, shares held jointly should ideally be reflected in a Demat account held jointly by the same individuals. More than one individual can hold a Demat account jointly. The exact limit on the number of joint holders may vary by DP, but it is usually a reasonable number (e.g., up to three)."
+    },
+    {
+        "question": "How to Download Client Master List from Demat account?",
+        "answer": "You can usually download the client master list (detailing your holdings) from your DP's online portal or by contacting their customer service. The process varies depending on the DP."
+    },
+    {
+        "question": "What are basic documents needed for NRI?",
+        "answer": "NRIs need to provide documents like their PAN card, overseas address proof, Indian address proof (if applicable), passport, visa details, PIO or OCI card (if applicable), and any other documents specified by the DP and regulations.\nISR Forms & Share Certificates"
+    },
+    {
+        "question": "What is ISR 1 Form?",
+        "answer": "Form ISR-1 is an Investor Service Request form that allows investors to request changes to their PAN, KYC details, or nominations. It is used to register or update details for securities held in physical form, such as shares, bonds, or debentures"
+    },
+    {
+        "question": "What is ISR 2 Form? It should be attested by Bank Manager?",
+        "answer": "Form ISR-2 is a bank form that verifies the signature of a securities holder. It is used to update the signature of a securities holder. The bank manager attests the form by confirming that the signature matches the one on file with the bank."
+    },
+    {
+        "question": "Who can be Nominee?",
+        "answer": "A nominee can be a family member, friend, or any trusted person. The person who appoints the nominee is called the policyholder or account holder.."
+    },
+    {
+        "question": "What is ISR 3 Form?",
+        "answer": "Form ISR-3 is a declaration form for opting out of nomination for physical securities in listed companies. It is used by investors who do not want to name a person to receive their securities in the event of their death."
+    },
+    {
+        "question": "Is SH 13 Form for Registering Nominee in the Folio Number?",
+        "answer": "Yes, \"SH 13 Form\" is specifically used to register a nominee for a particular folio number, meaning it is the form used to designate who will inherit your shares in the event of your death, linked to your specific folio number in a company's shareholding records."
+    },
+    {
+        "question": "We have to submit both ISR 3 and SH 13 Form?",
+        "answer": "Yes, you may need to submit both Form SH-13 and Form ISR-3, depending on whether you want to nominate someone or opt out of nomination."
+    },
+    {
+        "question": "Which documents are required when there is a change of Surname of Holder?",
+        "answer": "Documents typically required include the old share certificate(s), a copy of the marriage certificate (for married women), a copy of the gazette notification (if applicable), identity proof, address proof, and a letter explaining the change."
+    },
+    {
+        "question": "Is Marriage Certificate a Valid document for Name change of Female in occasion of Marriage?",
+        "answer": "Yes, a marriage certificate is generally considered a valid document for a name change for a female after marriage."
+    },
+    {
+        "question": "When Name change Gazette is Needed?",
+        "answer": "A gazette notification is usually required when the name change is due to reasons other than marriage (e.g., personal choice, divorce). It is also sometimes required even after marriage, depending on the company's specific requirements."
+    },
+    {
+        "question": "In case of married female, whether passport having name of spouse is a valid document for proof of name change?",
+        "answer": "A passport with the spouse's name is generally accepted as supporting proof of a name change after marriage."
+    },
+    {
+        "question": "What to do when Share certificate is not available?",
+        "answer": "If a share certificate is lost, you need to apply for a duplicate share certificate by following the procedure mentioned for lost certificates (ISR forms, affidavit, indemnity bond, advertisement, etc.)."
+    },
+    {
+        "question": "What is the procedure for duplicate share for loss of share certificates?",
+        "answer": "The procedure involves filing an FIR with the police, submitting ISR forms (ISR-1, ISR-2, and possibly ISR-4), providing an affidavit and indemnity bond, publishing a notice in the newspaper, and paying the required fees."
+    },
+    {
+        "question": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond?",
+        "answer": "Yes, an affidavit and indemnity bond are mandatory for obtaining a duplicate share certificate."
+    },
+    {
+        "question": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond, It should be print on stamp paper and Duly Notarized?",
+        "answer": "Yes, the affidavit and indemnity bond should be printed on the appropriate stamp paper (as per the stamp duty applicable in your state) and duly notarized."
+    },
+    {
+        "question": "What is ISR 4 form? when it is required to submit?",
+        "answer": "ISR-4 is a form related to the issue of a duplicate share certificate. It is submitted along with the other ISR forms and supporting documents."
+    },
+    {
+        "question": "How NRI can issue Duplicate share certificate?",
+        "answer": "The process for NRIs is similar to residents, but they may need to provide additional documents, such as proof of their NRI status and overseas address. They might also need to get some documents attested by a foreign notary or the Indian embassy/consulate."
+    },
+    {
+        "question": "What is Apostille Notary/ Attested from India Counsel?",
+        "answer": "An Apostille is a certificate that authenticates the origin of a public document (like a birth certificate, marriage certificate, or a notarized document) for use in countries that are part of the Hague Convention. It confirms the authenticity of the signature, seal, or stamp on the document. Attestation from the Indian Consulate is a similar process for countries that are not part of the Hague Convention. It confirms the document's authenticity for use in that specific foreign country."
+    },
+    {
+        "question": "What is Difference in Notary and Registered Notary?",
+        "answer": "All notaries are essentially \"registered\" in the sense that they are licensed by the state government. There isn't a formal designation of \"registered notary\" as distinct from a regular notary. The key is that the notary must be licensed and authorized to perform notarial acts."
+    },
+    {
+        "question": "When advertisement is required?",
+        "answer": "Advertisement in a newspaper is usually required when applying for a duplicate share certificate to notify the public about the loss of the original certificate. This allows anyone with objections to come forward."
+    },
+    {
+        "question": "In advertisement what we have to publish?",
+        "answer": "The advertisement typically includes details of the lost share certificate(s), such as the certificate number(s), folio number(s), share class, number of shares, and the name of the shareholder. It also mentions the intent to issue a duplicate certificate."
+    },
+    {
+        "question": "In how many Newspaper advertisement to be publish?",
+        "answer": "The exact number of newspapers depends on the company's requirements and the regulations. Usually, it is published in at least two newspapers \u2013 one in English and one in a regional language circulating in the area where the registered office of the company is located."
+    },
+    {
+        "question": "Which documents need to be submit if there is Death of Joint Holder?",
+        "answer": "In the case of the death of a joint holder, the surviving joint holder(s) need to submit a copy of the death certificate, the original share certificate(s), a transmission request form, and their KYC documents to the company or the registrar."
+    },
+    {
+        "question": "What is name deletion form and when is it needed?",
+        "answer": "A name deletion form is used to remove the name of a joint holder from a share certificate or a Demat account. It is needed in situations like:\nDeath of a joint holder: The name of the deceased joint holder needs to be removed.\nDivorce or separation: If shares are jointly held by a couple who are now divorced, they may need to delete each other's names.\nMutual agreement: If joint holders mutually agree to remove one of the names, they can use this form."
+    },
+    {
+        "question": "In case of joint holding and one of the holder is not alive, whether the surviving holder needs NOC of the legal heirs of deceased holder?",
+        "answer": "Generally, No. In the case of joint holding with survivorship clause, the shares automatically get transmitted to the surviving joint holder(s). NOC from legal heirs of the deceased holder is usually not required unless there are complications or disputes. However, it's always prudent to check with the company's RTA (Registrar and Transfer Agent) for their specific requirements."
+    },
+    {
+        "question": "Who can claim shares if Holder is not alive?",
+        "answer": "If a share holder is not alive, the shares can be claimed by the nominee designated by the deceased, or if no nominee is appointed, then by the legal heirs of the deceased as per their inheritance rights, which would typically be determined by a will if one exists; otherwise, the legal heirs would be decided by the law of the jurisdiction where the deceased resided."
+    },
+    {
+        "question": "What is transmission procedure?",
+        "answer": "Transmission is the process of transferring shares to the legal heirs of a deceased shareholder. It involves submitting a death certificate, a transmission request form, and other relevant documents to the company or its RTA."
+    },
+    {
+        "question": "Who are legal heirs?",
+        "answer": "Legal heirs are the individuals who are legally entitled to inherit the property of the deceased. This is determined by the applicable succession laws (Hindu Succession Act, Muslim Personal Law, etc.) and/or a will."
+    },
+    {
+        "question": "What is Succession Certificate? Who Can Issue?",
+        "answer": "A succession certificate is a legal document issued by a court that identifies the legal heirs of a deceased person and entitles them to inherit the deceased's assets. It is issued by a competent court of jurisdiction."
+    },
+    {
+        "question": "When Succession Certificate is Needed and Cost to be incurred?",
+        "answer": "A succession certificate is needed when a person dies without a will (intestate) or when there is a dispute about the inheritance. The cost varies depending on the jurisdiction and the value of the assets."
+    },
+    {
+        "question": "What is a time Period for Succession Certificate?",
+        "answer": "The time period for obtaining a succession certificate varies but it usually takes several months to a few years, depending on court procedures and the complexity of the case."
+    },
+    {
+        "question": "What is Legal Heir Certificate? Who Can Issue?",
+        "answer": 
+        "A legal heir certificate is a document that identifies the legal heirs of a deceased person. In some states, it is issued by local government authorities (e.g., municipal corporation or revenue department). It is generally used for administrative purposes and may not be sufficient for transferring high-value assets like shares."
+    },
+    {
+        "question": "When Legal Heir Certificate is Needed and Cost to be incurred?",
+        "answer": "A legal heir certificate is often needed for settling insurance claims, government benefits, and other administrative matters. The cost is nominal."
+    },
+    {
+        "question": "What is a time Period for Legal Heir Certificate?",
+        "answer": "The time period is relatively shorter than a succession certificate, typically a few weeks to a few months."
+    },
+    {
+        "question": "What is Will/Probate of Will? Who Can Issue?",
+        "answer": "A will is a legal document in which a person expresses their wishes regarding the distribution of their property after their death. Probate is the legal process of verifying the authenticity of the will by a competent court. The court grants probate."
+    },
+    {
+        "question": "What is ISR 5 Form?",
+        "answer": "ISR-5 is a form related to the transmission of shares. It is a communication to the company from the surviving joint holder(s) or legal heirs regarding the death of a shareholder."
+    },
+    {
+        "question": "Is NOC is required from other legal Heir?",
+        "answer": "Generally, if a Succession Certificate or Probate is in place, NOC from other legal heirs is not strictly required. However, it's always advisable to obtain NOCs from all possible legal heirs to avoid potential disputes in the future."
+    },
+    {
+        "question": "Who all can be witness?",
+        "answer": "Any person who is of sound mind and not directly related to the transaction can be a witness. It's preferable to have independent witnesses."
+    },
+    {
+        "question": "Who are surety? When surety affidavit is required?",
+        "answer": "A surety is a person who guarantees the fulfillment of an obligation. Surety affidavits may be required in cases of lost share certificates or when the legal heirs are not immediately ascertainable. They provide a guarantee against any potential claims on the shares."
+    },
+    {
+        "question": "Can Surety and Witness can be a same person?",
+        "answer": "It is generally not advisable for the surety and witness to be the same person, as it can create a conflict of interest."
+    },
+    {
+        "question": "When FIR is needed?",
+        "answer": "An FIR (First Information Report) with the police is needed when the share certificates are lost or stolen. It is a mandatory step in the process of obtaining duplicate share certificates."
+    },
+    {
+        "question": "What should be Mention in FIR?",
+        "answer": "The FIR should include details of the lost/stolen share certificates (certificate numbers, folio numbers, number of shares, company name), when and how the loss occurred, and any other relevant information."
+    },
+    {
+        "question": "Is FIR should be Notarized?",
+        "answer": "An FIR is a document filed with the police; it is not notarized. However, you may need a certified copy of the FIR for submission to the company."
+    },
+    {
+        "question": "Is online FIR is Valid?",
+        "answer": "Yes, online FIRs are valid in many jurisdictions in India for certain types of offenses. Check with your local police department for their rules."
+    },
+    {
+        "question": "What is Entitlement Letter?",
+        "answer": "An entitlement letter is issued by the company to the legal heirs after the transmission process is complete. It confirms their entitlement to the shares."
+    },
+    {
+        "question": "Is Entitlement Letter is Compulsory before IEPF 5 Form?",
+        "answer": "An entitlement letter is generally required before filing IEPF Form 5."
+    },
+    {
+        "question": "What is IEPF Form 5?",
+        "answer": "IEPF Form 5 is an application to claim shares and dividends from the Investor Education and Protection Fund (IEPF) Authority. Shares that have remained unclaimed for seven years are transferred to the IEPF."
+    },
+    {
+        "question": "What documents required before filing IEPF 5 online?",
+        "answer": "Documents required typically include the death certificate of the original shareholder, succession certificate/probate of will/legal heir certificate, KYC documents of the claimant(s), proof of entitlement (entitlement letter from the company), and other documents as specified in the IEPF rules."
+    },
+    {
+        "question": "Which documents are required to submit if there is mismatch of name?",
+        "answer": "If there is a mismatch of name, you will need to submit supporting documents like a copy of your PAN card, Aadhaar card, marriage certificate (in case of women whose names have changed after marriage), gazette notification (for name changes), and an affidavit explaining the discrepancy."
+    },
+    {
+        "question": "Which documents are required to submit if there is mismatch of Address in KYC and Share certificate?",
+        "answer": "If there is a mismatch of address, you will need to submit updated KYC documents with the correct address, along with proof of the new address and an affidavit explaining the discrepancy."
+    },
+    {
+        "question": "Who are depositories?",
+        "answer": "Depositories are organizations that hold securities (like shares, bonds, etc.) in electronic form on behalf of investors. They act as custodians and facilitate the transfer and settlement of securities transactions. In India, the two main depositories are:\nNational Securities Depository Limited (NSDL)\nCentral Depository Services (India) Limited (CDSL)"
+    },
+    {
+        "question": "What is DRF form?",
+        "answer": "DRF stands for Dematerialisation Request Form. It's a document used to convert physical securities into electronic form."
+    },
+    {
+        "question": "What is Transposition?",
+        "answer": "Transposition is the re-arrangement of the names of joint holders on a share certificate. For example, if the order of names is changed from A, B, C to C, A, B, it is called transposition."
+    },
+    {
+        "question": "What if Company is closed or Unlisted from NSE and BSE?",
+        "answer": "If a company is closed (liquidated), the liquidator will outline the process for claiming any remaining assets, including shares. If a company is delisted, its shares can still be traded in the unlisted market, but the liquidity may be significantly lower. The process for transferring or selling unlisted shares will depend on the company and applicable regulations."
+    },
+    {
+        "question": "What is Transaction Statement?",
+        "answer": "A transaction statement is a record of all transactions related to your Demat account, including purchases, sales, transfers, and other activities. It is provided by your DP."
+    },
+    {
+        "question": "What is Holding Statement?",
+        "answer": "A holding statement shows the shares held in your Demat account at a specific point in time. It is also provided by your DP."
+    },
+    {
+        "question": "How shares in Demat are transferred to IEPF?",
+        "answer": "Shares are transferred to the IEPF if they have remained unclaimed for seven years. The company transfers the shares to the IEPF after sending several reminders to the shareholder."
+    },
+    {
+        "question": "How we can get which Company shares is transferred to IEPF from Demat account?",
+        "answer": "You can check with your DP or the company's RTA to find out if any of your shares have been transferred to the IEPF. The IEPF website may also have a searchable database."
+    },
+    {
+        "question": "We have to update KYC in Demat IEPF Shares?",
+        "answer": "Yes, KYC is required to claim shares from IEPF. You will need to update your KYC details as per the IEPF rules."
+    },
+    {
+        "question": "Before KYC Update, Aadhar and Pan card should be Linked of Claimant/Holder?",
+        "answer": "Yes, linking Aadhaar with PAN is generally mandatory for KYC compliance in India."
+    },
+    {
+        "question": "What is SRN Number?",
+        "answer": "SRN can stand for Service Request Number, which is a 14-digit number used in various contexts, including Aadhaar, payments, and shipping."
+    },
+    {
+        "question": "Once IEPF filed, how much time it will take for Approval?",
+        "answer": "The processing time for IEPF claims varies and can take several months, depending on the volume of applications and scrutiny by the IEPF authorities."
+    },
+    {
+        "question": "Once IEPF Approved, when shares is credited to Our Demat account?",
+        "answer": "After approval, the shares are usually credited to your Demat account within a few weeks."
+    },
+    {
+        "question": "If we have shares in both Suspense and IEPF account, which shares we have claim first?",
+        "answer": "You should prioritize claiming shares from the IEPF account as these have been transferred due to being unclaimed for a longer period. Suspense accounts might have a shorter timeframe. However, consult with professionals for your specific situation."
+    },
+    {
+        "question": "What are basic reason for Rejection of IEPF?",
+        "answer": "Common reasons for rejection include incomplete documentation, discrepancies in information, not meeting eligibility criteria, or lack of proper proof of entitlement."
+    },
+    {
+        "question": "Once IEPF rejected, we have to resubmit all documents?",
+        "answer": "You will usually need to rectify the deficiencies and resubmit the application with the required documents. You may not need to submit all documents again, only those that were incomplete or incorrect."
+    },
+    {
+        "question": "Is KYC is compulsory to Claim shares from IEPF?",
+        "answer": "Yes, KYC is mandatory to claim shares from IEPF."
+    },
+    {
+        "question": "What are the query raised by RTA for Issuing Entitlement Letter?",
+        "answer": "The RTA may raise queries regarding incomplete documentation, discrepancies in information, or issues with the transmission process. They may ask for additional proof of legal heirship or clarification on specific transactions."
+    },
+    {
+        "question": "By Submitting Notarized Death Certificate, Legal Heir can Claim shares from IEPF?",
+        "answer": "A death certificate is a necessary document, but it is generally not sufficient on its own. You will also need a succession certificate, probate of will, or legal heir certificate (depending on the circumstances) to establish legal ownership."
+    },
+    {
+        "question": "How many Joint Holder can be in one Share Certificate?",
+        "answer": "The maximum number of joint holders allowed on a share certificate is usually three, but it can vary depending on the company's articles of association."
+    },
+    {
+        "question": "Is Claimant is More than One Legal Heir?",
+        "answer": "Yes, in cases of multiple legal heirs, all of them can jointly make the claim. The shares will then be transferred to a Demat account opened in all their names or as otherwise directed by them."
+    },
+    {
+        "question": "What is Claim My Shares?",
+        "answer": "Claim My Shares is a professional firm specializing in retrieving unclaimed dividends, lost physical shares, share transmission, name changes, and re-claims from IEPF. We have offices across India, with headquarters in Mumbai.\n\n \n2. What are unclaimed shares and dividends?\nUnclaimed shares are stocks that belong to an investor but have not been claimed due to lost certificates, signature mismatches, or other reasons. Similarly, unclaimed dividends are the earnings distributed by a company that were never received by the shareholder.\n\n3. How can I check if I have unclaimed shares or dividends?\nYou can check unclaimed shares by:\nSearching the company’s investor section on their website.\nChecking with depositories like CDSL and NSDL.\nContacting Claim My Shares for professional assistance in locating and reclaiming your shares."
+    },
+    {
+        "question": "How do I claim unclaimed shares?",
+        "answer": "To claim your unclaimed shares, you typically need:\nProof of ownership (old share certificates, dividend receipts, etc.).\nKYC documents (PAN card, Aadhaar, etc.).\nA new Demat account (if you don't have one).\nApplication to the company’s registrar or IEPF (if shares are transferred to IEPF).\nClaim My Shares can handle the entire process for you.\nDematerialization (Demat) & Share Transfer"
+    },
+    {
+        "question": "What is a Demat account, and why do I need one?",
+        "answer": "A Demat account holds shares in electronic form. Since April 1, 2019, physical share transfers have been restricted, making Demat conversion mandatory for selling or transferring shares.\n\n6. How do I open a Demat account?\nChoose a Depository Participant (DP) registered with CDSL or NSDL.\nProvide KYC documents (Aadhaar, PAN, bank details, etc.).\nComplete the account opening form and verification."
+    },
+    {
+        "question": "What are the benefits of having a Demat account?",
+        "answer": "Safe and secure holding of securities.\nHassle-free transfer and trading of shares.\nProtection from loss, theft, or damage of physical shares.\nLower transaction costs and easy access to dividends.\nEligibility for loans against securities."
+    },
+    {
+        "question": "How do I convert physical shares into Demat form?",
+        "answer": "Open a Demat account.\nFill out a Dematerialization Request Form (DRF).\nSubmit original share certificates to your Depository Participant (DP).\nThe DP will forward it to the company/registrar for dematerialization.\nTransmission & Name Change"
+    },
+    {
+        "question": "What is the transmission of shares?",
+        "answer": "Transmission of shares refers to the transfer of shares due to the death of the shareholder. The legal heir or nominee can claim ownership by submitting:\n\nDeath certificate of the original shareholder.\nSuccession certificate or will (if applicable).\nKYC documents of the heir/nominee."
+    },
+    {
+        "question": "Can I transfer shares to a family member?",
+        "answer": "Yes, you can transfer shares to a family member, but it must be dematerialized first. Once in a Demat account, you can execute an off-market transfer through your Depository Participant.\n\n11. How do I change the name on my share certificates?\nTo change the name on share certificates (due to marriage, spelling errors, etc.), you need:\n\nA request letter to the company’s registrar.\nSupporting documents (marriage certificate, affidavit, etc.).\nOriginal share certificates (if in physical form).\nKYC documents for identity verification.\nIEPF (Investor Education and Protection Fund) Reclaims"
+    },
+    {
+        "question": "What happens if my shares are transferred to IEPF?",
+        "answer": "If dividends remain unclaimed for 7 consecutive years, the corresponding shares are transferred to IEPF (Investor Education and Protection Fund) under SEBI regulations.\n\n13. How do I reclaim shares from IEPF?\nTo reclaim shares from IEPF, follow these steps:\n\nCheck the IEPF website to confirm the transfer.\nSubmit Form IEPF-5 online.\nSend physical documents to the company’s registrar.\nAwait verification and approval from IEPF authorities.\nClaim My Shares can assist in this process to ensure a smooth and hassle-free reclaim.\n\n 14. Can I claim shares if I have lost the original share certificate?\nYes, you can reclaim lost shares by:\n\nFiling an FIR for the lost certificates.\nPublishing a newspaper advertisement as per company policy.\nApplying for duplicate share certificates."
+    },
+    {
+        "question": "What if my signature has changed over time?",
+        "answer": "If your signature no longer matches company records, you must:\n\nSubmit a signature verification form with your bank’s attestation.\nProvide identity proof (PAN, Aadhaar, etc.).\nSend a request to the company’s registrar for update approval."
+    },
+    {
+        "question": "Can I sell physical shares directly?",
+        "answer": "No, physical shares must be converted to Demat before selling. Since April 1, 2019, SEBI has banned physical share transfers, except for transmission or transposition.\n\n17. How long does it take to retrieve lost shares or dividends?\nThe timeline depends on the complexity of your case. Typically:\n\nDematerialization takes 2-4 weeks.\nTransmission or transfer takes 4-8 weeks.\nIEPF claims take 3-6 months, depending on approvals.\nClaim My Shares ensures timely follow-ups and expert handling to expedite the process."
+    },
+    {
+        "question": "How long does it take to retrieve lost shares or dividends?",
+        "answer": " The timeline depends on the complexity of your case. Typically: Dematerialization takes 2-4 weeks. Transmission or transfer takes 4-8 weeks. IEPF claims take 3-6 months, depending on approvals. Claim My Shares ensures timely follow-ups and expert handling to expedite the process."
+    },
+    {
+        "question": "How to Contact?",
+        "answer": "For expert assistance, reach out to us at:\n\n\uD83D\uDCCD Mumbai (Head Office)\nOffice No. 603 & 604, 6th Floor, Kushal Point, Ghatkopar West, Mumbai \u2013 400086\n\n\uD83D\uDCCD Pune (Viman Nagar)\nA Wing, Office 824, Nyati Express, Next to Baker Gauges India Pvt. Ltd, Viman Nagar, Pune \u2013 411014\n\n\uD83D\uDCCD Pune (Kharadi)\nOffice 715, Global Business Hub, Kharadi, Pune \u2013 411014\n\n\uD83D\uDCCD Kolkata\n6C, Shakespeare Court, 21A Shakespeare Sarani, Kolkata \u2013 700017"
+      }
+      
+]
