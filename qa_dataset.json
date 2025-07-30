@@ -454,6 +454,326 @@
     {
         "question": "How to Contact?",
         "answer": "For expert assistance, reach out to us at:\n\n\uD83D\uDCCD Mumbai (Head Office)\nOffice No. 603 & 604, 6th Floor, Kushal Point, Ghatkopar West, Mumbai \u2013 400086\n\n\uD83D\uDCCD Pune (Viman Nagar)\nA Wing, Office 824, Nyati Express, Next to Baker Gauges India Pvt. Ltd, Viman Nagar, Pune \u2013 411014\n\n\uD83D\uDCCD Pune (Kharadi)\nOffice 715, Global Business Hub, Kharadi, Pune \u2013 411014\n\n\uD83D\uDCCD Kolkata\n6C, Shakespeare Court, 21A Shakespeare Sarani, Kolkata \u2013 700017"
-      }
+      },
+       {
+      "question": "1. IEPF kya hai?",
+      "answer": "Investor Education and Protection Fund (IEPF) Bharat sarkar dwara niveshakon ke hiton ki suraksha aur unki jagrukta badhane ke liye banaya gaya ek fund hai. Isme mainly woh dividend, shares aur paise hote hain jo 7 saal tak claim na hone ke baad yahan transfer ho jaate hain."
+    },
+     {
+      "question": "2. Companies ko shares IEPF mein kyun transfer karne chahiye?",
+      "answer": "Companies Companies Act, 2013 ke Section 124 ke under legally bound hoti hain ki agar kisi share pe 7 saal tak koi claim nahi aaya ho to use IEPF mein transfer kar diya jaye. Isse governance strong hoti hai aur investors ka interest safe rehta hai."
+    },
+     {
+      "question": "3. IEPF authority ka operation kaun karta hai?",
+      "answer": "IEPF authority ka operation Bharat sarkar ke Ministry of Corporate Affairs ke under hota hai."
+    },
+     {
+      "question": "4. Kya IEPF shares company ke paas hote hain?",
+      "answer": "Nahi, ek baar shares IEPF mein transfer ho jaayein to wo company ke paas nahi rehte, balki IEPF authority ke custody mein chale jaate hain."
+    },
+     {
+      "question": "5. Shares kab IEPF account mein transfer hote hain?",
+      "answer": "Jab kisi dividend ya share pe 7 saal tak koi claim nahi aata, tab woh IEPF account mein transfer ho jaata hai. Yeh period us din se count hota hai jab dividend declare hua ya share transfer hone layak bana tha."
+    },
+     {
+      "question": "6. Agar shares IEPF mein transfer ho jaayein to claim karne ki time limit kya hai?",
+      "answer": "Investor kabhi bhi IEPF se apne shares claim kar sakta hai. Iske liye koi fixed time limit nahi hai."
+    },
+     {
+      "question": "7. Unclaimed Shares kya hote hain?",
+      "answer": "Unclaimed shares woh hote hain jinpe shareholder ne claim nahi kiya hota — ye death, address change ya share certificate kho jaane ki wajah se ho sakta hai."
+    },
+     {
+      "question": "8. Unclaimed Dividend kya hota hai?",
+      "answer": "Unclaimed dividend woh hota hai jo company ne declare kiya ho lekin shareholder ne usse receive nahi kiya ho specified time ke andar."
+    },
+     {
+      "question": "9. Physical Shares kya hote hain?",
+      "answer": "Physical shares paper certificate ke form mein diye jaate hain. Ye demat shares se alag hote hain jo electronic form mein hote hain."
+    },
+     {
+      "question": "10. Shares Suspense Account mein kab transfer hote hain?",
+      "answer": "Agar 7 saal ya usse zyada time tak dividend claim nahi kiya gaya ho to shares Suspense Account mein transfer ho jaate hain, as per IEPF rules."
+    },
+     {
+      "question": "11. Share ki Face Value kya hoti hai?",
+      "answer": "Face Value woh moolya hota hai jis par share ko company ne first time issue kiya tha. Isse nominal value bhi kaha jaata hai."
+    },
+     {
+      "question": "12. Agar company ne Face Value split kiya ho to kya share quantity badhti hai?",
+      "answer": "Haan, agar ₹10 ka share ₹5 mein split hota hai to share ki quantity double ho jaati hai. Value wahi rehti hai."
+    },
+     {
+      "question": "13. Agar company ne Bonus Issue declare kiya ho to kya shares badhte hain?",
+      "answer": "Haan, Bonus Issue mein company free shares deti hai existing shareholders ko. Isse unke paas shares zyada ho jaate hain."
+    },
+     {
+      "question": "14. Kya hum direct IEPF form bhar ke share claim kar sakte hain?",
+      "answer": "Haan, aap IEPF-5 form online bhar ke IEPF website se apne shares ya dividend ka claim kar sakte hain."
+    },
+     {
+      "question": "15. Apne father/dada ke shares ke liye kya karna chahiye?",
+      "answer": "Agar shares physical form mein hain to pehle legal process (like will ya succession certificate) se unhe apne naam transfer karwana padega. Fir claim kiya ja sakta hai."
+    },
+     {
+      "question": "16. RTA kaun hota hai?",
+      "answer": "RTA ka matlab Registrar and Transfer Agent hota hai. Ye companies ke shareholder records manage karte hain aur transfers, dividends jaise kaam sambhalte hain."
+    },
+   {
+      "question": "17. RTA kya karta hai?",
+      "answer": "- Shareholder record maintain karta hai\n- Share transfer aur transmission process handle karta hai\n- Dividend distribute karta hai\n- Physical share certificate issue karta hai\n- Complaints ka resolution karta hai"
+    },
+   {
+      "question": "18. Dividend Warrant kya hota hai?",
+      "answer": "Dividend Warrant ek aisa document hota hai jise company dividend pay karne ke liye issue karti hai — yeh basically ek cheque hota hai jo bank mein deposit hota hai."
+    },
+   {
+      "question": "19. Agar Folio Number nahi pata ho lekin Dividend Warrant ho to kya karein?",
+      "answer": "Aap RTA se contact karke apna Dividend Warrant dikha kar Folio Number trace kar sakte hain."
+    },
+   {
+      "question": "20. Folio Number kya hota hai?",
+      "answer": "Folio Number ek unique ID hoti hai jo har shareholder ko di jaati hai company ke record mein. Isse shares track kiye ja sakte hain."
+    },
+   {
+    "question": "21. Pramanpatra sankhya kya hai?",
+    "answer": "Pramanpatra sankhya har physical share certificate par likhi ek unique number hoti hai. Isse certificate ki pehchaan aur tracking hoti hai."
+  },
+   {
+    "question": "22. Share claim karne ka pehla step kya hai?",
+    "answer": "Sabse pehle yeh pata lagana hai ki aapke shares kahan hain (company ke paas, suspense account mein ya IEPF mein transfer ho chuke hain). Uske baad related documents jama karke KYC update karna hota hai."
+  },
+   {
+    "question": "23. KYC update kya hota hai? Kaunse documents dene hote hain?",
+    "answer": "KYC (Know Your Customer) ek process hai jisse investor ki identity aur address verify kiya jata hai. Zaruri documents:\n- Pehchaan proof (PAN, Aadhaar, Voter ID etc.)\n- Address proof (Aadhaar, Passport, Bijli bill etc.)\n- Cancelled cheque ya bank details\n- Shareholding proof (Share certificate, dividend warrant etc.)"
+  },
+   {
+    "question": "24. Kya share claim karne ke liye Demat account zaruri hai?",
+    "answer": "Haan, ab IEPF se share claim karne ke liye valid demat account hona mandatory hai. Shares directly aapke demat account mein transfer hote hain."
+  },
+   {
+    "question": "25. Client Master List kya hoti hai?",
+    "answer": "Client Master List ek document hota hai jo DP (Depository Participant) maintain karta hai. Isme demat account holder ka naam, PAN, address, aur account details hote hain."
+  },
+   {
+    "question": "26. Unclaimed dividend ka kya hota hai?",
+    "answer": "Agar shareholder ne declared dividend specified time mein receive nahi kiya, to woh amount 7 saal ke baad IEPF mein transfer ho jaata hai. Baad mein claim kiya ja sakta hai."
+  },
+   {
+    "question": "27. Demat account kaise aur kahan kholen?",
+    "answer": "Aap kisi SEBI registered DP ke through online ya offline demat account khol sakte hain. Iske liye KYC documents, form aur aapki approval chahiye hoti hai."
+  },
+   {
+    "question": "28. Agar shares joint naam mein ho to kya joint demat account zaruri hai? Ek demat account mein kitne holders ho sakte hain?",
+    "answer": "Haan, joint shares ke liye joint holders ko milkar demat account open karna padta hai. Usually ek demat account mein 2 ya 3 holders ho sakte hain."
+  },
+   {
+    "question": "29. Demat account se Client Master List kaise download karein?",
+    "answer": "Apne DP ki website ya portal par login karke CML download kar sakte hain. Ya fir DP ke customer service se contact karke bhi mil sakti hai."
+  },
+   {
+    "question": "30. NRI ke liye kaunse documents chahiye?",
+    "answer": "NRI ko PAN, Indian aur foreign address proof (agar applicable ho), passport, visa, PIO/OCI card (agar applicable ho) aur other valid documents dene hote hain."
+  },
+   {
+    "question": "31. ISR-1 Form kya hai?",
+    "answer": "ISR-1 ek Investor Service Request Form hai jo PAN, KYC details ya nomination update karne ke liye use hota hai, especially physical securities ke cases mein."
+  },
+   {
+    "question": "32. ISR-2 Form kya hai? Kya isey bank manager se verify karana zaruri hai?",
+    "answer": "ISR-2 ek form hai jisme bank manager investor ke signature ko certify karta hai. Yeh ensure karta hai ki aapke bank mein diye gaye signature match karte hain."
+  },
+   {
+    "question": "33. Nominee kaun ho sakta hai?",
+    "answer": "Nominee koi bhi family member, friend ya trusted person ho sakta hai jise aap apne shares ke liye nominate karte hain."
+  },
+   {
+    "question": "34. ISR-3 Form kya hai?",
+    "answer": "ISR-3 ek declaration form hai jisme investor batata hai ki woh nomination nahi karna chahta. Yeh bhi physical securities ke liye hota hai."
+  },
+   {
+    "question": "35. Kya SH-13 Form folio number ke liye nominee register karne ke liye hota hai?",
+    "answer": "Haan, SH-13 ka use kisi specific folio ke liye nominee register karne ke liye hota hai."
+  },
+   {
+    "question": "36. Kya dono forms ISR-3 aur SH-13 submit karne padte hain?",
+    "answer": "Nahi, aapko ya to SH-13 ya ISR-3 mein se ek submit karna hota hai, yeh depend karta hai ki aap nomination karna chahte hain ya nahi."
+  },
+   {
+    "question": "37. Agar surname change ho jaye to kaunse documents lagenge?",
+    "answer": "Old share certificates, marriage certificate (agar married woman hai), gazette notification (agar applicable ho), ID proof, address proof aur ek letter dena padta hai."
+  },
+   {
+    "question": "38. Kya marriage certificate valid proof hai name change ke liye?",
+    "answer": "Haan, marriage ke baad name change ke liye marriage certificate ek valid proof mana jata hai."
+  },
+   {
+    "question": "39. Name change ke liye gazette notification kab zaruri hoti hai?",
+    "answer": "Gazette notification tab zaruri hoti hai jab name change kisi personal reason, divorce, ya other non-marriage reason se hua ho."
+  },
+   {
+    "question": "40. Kya married woman ke passport mein husband ka naam hona valid name change proof hai?",
+    "answer": "Haan, agar married woman ke passport mein husband ka naam likha hai to usse valid name change proof mana jata hai."
+  },
+   {
+    "question": "61. Kya IEPF se jude cases ke liye koi time limit hoti hai?",
+    "answer": "Haan, aapko apna claim 7 saal ke andar file karna hota hai. Uske baad shares aur dividend IEPF mein transfer kar diye jaate hain."
+  },
+   {
+    "question": "62. Kya main IEPF portal par online complaint register kar sakta/sakti hoon?",
+    "answer": "Haan, aap IEPF website par jaake 'Investor Services' section mein complaint register kar sakte hain."
+  },
+   {
+    "question": "63. Kya IEPF form submit karne ke baad uska status dekh sakte hain?",
+    "answer": "Haan, aap MCA portal par login karke SRN number ke through apne form ka status dekh sakte hain."
+  },
+   {
+    "question": "64. Agar mera claim reject ho gaya ho to kya karun?",
+    "answer": "Aapko rejection ka reason dekhkar required correction karke fir se naya claim file karna hoga."
+  },
+   {
+    "question": "65. Kya IEPF claim lene ke liye court jaana padta hai?",
+    "answer": "Generally nahi, lekin agar dispute ho ya legal inheritance ka issue ho to court order ki zarurat pad sakti hai."
+  },
+   {
+    "question": "66. IEPF mein transfer hue shares par right kaise prove karein?",
+    "answer": "Share certificate, identity proof, address proof aur supporting documents ke through aap apna right prove kar sakte hain."
+  },
+   {
+    "question": "67. IEPF claim ke time nominee ka kya role hota hai?",
+    "answer": "Agar shareholder ne nominee assign kiya ho to nominee directly IEPF se claim kar sakta hai."
+  },
+   {
+    "question": "68. Mrit shareholder ke case mein kaun claim kar sakta hai?",
+    "answer": "Legal heir, nominee ya successor proper documents ke sath claim file kar sakte hain."
+  },
+   {
+    "question": "69. IEPF claim process mein kitna time lagta hai?",
+    "answer": "Sare documents sahi hone par usually 60 se 120 din mein process complete ho jaata hai."
+  },
+   {
+    "question": "70. Kya main ek form se multiple companies ke claim kar sakta hoon?",
+    "answer": "Nahi, har company ke liye separate form aur documents submit karne padte hain."
+  },
+   {
+    "question": "71. Kya IEPF claim process free hoti hai?",
+    "answer": "Haan, lekin notary, stamp paper aur courier jaise kuch charges lag sakte hain."
+  },
+   {
+    "question": "72. Kya shares ka physical form mein hona zaruri hai?",
+    "answer": "Nahi, IEPF dono demat aur physical shares ke cases mein applicable hota hai."
+  },
+   {
+    "question": "73. Apne shares demat mein kyun convert karein?",
+    "answer": "Demat se process fast hoti hai aur physical documents ki requirement kam ho jaati hai."
+  },
+   {
+    "question": "74. Kya PAN card IEPF claim ke liye mandatory hai?",
+    "answer": "Haan, PAN card identity proof ke liye mandatory hai."
+  },
+   {
+    "question": "75. IEPF claim ka status kaise track karein?",
+    "answer": "Aap MCA portal par apna SRN number enter karke claim status check kar sakte hain."
+  },
+   {
+    "question": "76. Kya shareholder ka bank account zaruri hota hai?",
+    "answer": "Haan, claimed amount wahi bank account mein transfer hota hai jo documents mein diya gaya ho."
+  },
+   {
+    "question": "77. Kya IEPF claim ke liye passbook copy deni padti hai?",
+    "answer": "Haan, aapko self-attested passbook ya bank statement ki copy deni hoti hai as address/bank proof."
+  },
+   {
+    "question": "78. Kya NRI bhi IEPF claim file kar sakta hai?",
+    "answer": "Haan, NRI investors bhi valid documents ke sath claim file kar sakte hain."
+  },
+   {
+    "question": "79. Kya claim process ke liye agent ki zarurat hoti hai?",
+    "answer": "Yeh aapke upar hai — aap khud claim file kar sakte hain ya kisi professional ki madad le sakte hain."
+  },
+   {
+    "question": "80. Kya death certificate mandatory hai jab heir claim kare?",
+    "answer": "Haan, jab heir claim karta hai to mrit shareholder ka death certificate sabse important document hota hai."
+  },
+   {
+    "question": "81. Kya newspaper mein notice publish karna zaruri hai?",
+    "answer": "Generally nahi, lekin kuch special cases mein company notice publish karne ko keh sakti hai."
+  },
+   {
+    "question": "82. IEPF ke documents ko kaise verify karayein?",
+    "answer": "Documents ko notary ya gazetted officer se attest karwana zaruri hota hai."
+  },
+   {
+    "question": "83. Kya address proof zaruri hota hai?",
+    "answer": "Haan, address proof jaise Aadhaar, electricity bill ya bank statement dena padta hai."
+  },
+   {
+    "question": "84. Kya IEPF claim ke liye affidavit dena hota hai?",
+    "answer": "Haan, ek affidavit stamp paper par banana padta hai taaki claim ki authenticity prove ho sake."
+  },
+   {
+    "question": "85. Kya stamp paper affidavit aur indemnity bond ke liye chahiye hota hai?",
+    "answer": "Haan, affidavit aur indemnity bond dono stamp paper par banane padte hain."
+  },
+   {
+    "question": "86. Kaunse documents zaruri hote hain?",
+    "answer": "Share certificate, PAN card, ID proof, address proof, death certificate (agar applicable ho) dena padta hai."
+  },
+   {
+    "question": "87. Kya heir certificate zaruri hota hai?",
+    "answer": "Haan, agar nominee nahi hai to legal heir certificate zaruri hota hai."
+  },
+   {
+    "question": "88. Kya court order required hota hai?",
+    "answer": "Agar multiple claimants ho ya dispute ho to court order zaruri hota hai."
+  },
+   {
+    "question": "89. Kya IEPF directly shares bhejta hai?",
+    "answer": "Nahi, IEPF shares company ko transfer karta hai, jo fir aapke naam par demat mein transfer karti hai."
+  },
+   {
+    "question": "90. Kya email notification milti hai during claim process?",
+    "answer": "Haan, SRN number aur status updates email ke through share ki jaati hain."
+  },
+  {
+    "question": "91. Kya documents bhejne ke baad call ya follow-up zaruri hai?",
+    "answer": "Zaruri to nahi hai, lekin follow-up se process fast ho sakti hai."
+  },
+   {
+    "question": "92. Kya main kisi aur ki taraf se claim file kar sakta hoon?",
+    "answer": "Haan, agar aapke paas valid power of attorney ya legal authority ho to aap file kar sakte hain."
+  },
+   {
+    "question": "93. Kya documents post ya courier se bhej sakte hain?",
+    "answer": "Haan, aap documents trackable courier service se bhej sakte hain."
+  },
+   {
+    "question": "94. Kya duplicate share certificate IEPF ke liye valid hota hai?",
+    "answer": "Haan, agar company ne usse issue kiya ho to duplicate share certificate bhi valid hota hai."
+  },
+   {
+    "question": "95. Agar company ka naam change ho gaya ho to kya karein?",
+    "answer": "Aapko claim form mein company ka new name aur purane share certificate ka reference dena padta hai."
+  },
+   {
+    "question": "96. Kya IEPF claim par GST lagta hai?",
+    "answer": "Nahi, yeh ek investor service hai isliye GST applicable nahi hota."
+  },
+   {
+    "question": "97. Kis website par claim form bharna hota hai?",
+    "answer": "Aapko IEPF claim form Ministry of Corporate Affairs ki website https://www.iepf.gov.in par bharna hota hai."
+  },
+   {
+    "question": "98. Kya mobile number dena zaruri hai?",
+    "answer": "Haan, OTP verification aur contact ke liye mobile number dena mandatory hota hai."
+  },
+   {
+    "question": "99. Kya application ke liye Aadhaar linked hona zaruri hai?",
+    "answer": "Nahi, lekin Aadhaar identity proof ke roop mein use kiya ja sakta hai."
+  },
+   {
+    "question": "100. SRN number kaise milega?",
+    "answer": "Form submit karne ke baad SRN number aapke screen par dikhai deta hai aur email par bhi bheja jata hai."
+  }
       
 ]
