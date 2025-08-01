@@ -12,8 +12,9 @@ app.secret_key = "your_secret_key"  # Required for session management
 HUGGING_FACE_API_KEY = "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"
 
 # Load Q&A dataset
-with open("qa_dataset.json", "r") as f:     
+with open("qa_dataset.json", "r", encoding="utf-8") as f:
     qa_data = json.load(f)
+
 
 # Extract questions and answers
 questions = [qa["question"] for qa in qa_data]
