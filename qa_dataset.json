@@ -1,1178 +1,652 @@
 [
-    {"question": "hello", "answer": "Hi! How can I assist you?"},
-    {"question": "yes", "answer": "Please specify your query?"},
-    {"question": "no", "answer": "Thank you for Using Bhanje the chatbot, hope the bot was usefull to resolve your query"},
-    {"question": "hi", "answer": "Hello! How can I assist you?"},
-    {"question": "what is your name", "answer": "I am Bhanje your chatbot assistant."},
-    {"question": "what is AI", "answer": "Artificial Intelligence (AI) is the simulation of human intelligence in machines."},
-    
-    {
-        "question": "What is IEPF?",
-        "answer": "The Investor Education and Protection Fund (IEPF) is a fund set up by the Indian government to protect the interests of investors and promote investor awareness. It is primarily funded by unclaimed dividends, shares, and other amounts that have remained unclaimed by investors for a period of seven years."
-    },
-    {
-        "question": "Why companies should transfer the shares to IEPF?",
-        "answer": "Companies are legally obligated under Section 124 of the Companies Act, 2013 to transfer shares to the IEPF if they remain unclaimed for seven years. This ensures better governance and protects investor interests by preventing companies from misusing unclaimed assets."
-    },
-    {
-        "question": "Who is handling IEPF authority?",
-        "answer": "The IEPF authority is managed by the Ministry of Corporate Affairs, Government of India."
-    },
-    {
-        "question": "Are IEPF shares available with the company?",
-        "answer": "No, once shares are transferred to IEPF, they are no longer held by the company. They are under the custody of the IEPF authority."
-    },
-    {
-        "question": "When are shares transferred to the IEPF account?",
-        "answer": "Shares are transferred to the IEPF account after seven years of remaining unclaimed. This period starts from the date the dividend was declared or the shares were due for transfer."
-    },
-    {
-        "question": "What is the time period to claim shares in case shares are transferred to IEPF?",
-        "answer": "An investor can claim their shares from the IEPF anytime after they have been transferred. There is no specific time limit as such."
-    },
-    {
-        "question": "What are Unclaimed Shares?",
-        "answer": "Unclaimed shares are shares that have not been claimed by the shareholders. This can happen due to a number of reasons, including death, change of address, or loss of share certificates"
-    },
-    {
-        "question": "What is Unclaimed Dividend?",
-        "answer": "An unclaimed dividend is a dividend that a company has declared but a shareholder has not collected within the specified time."
-    },
-    {
-        "question": "What are Physical Shares?",
-        "answer": "Physical shares are share certificates issued in paper form as evidence of ownership. These are different from dematerialized shares which are held electronically."
-    },
-    {
-        "question": "When are shares transferred to the Suspense Account?",
-        "answer": "Shares are transferred to a Suspense Account when dividends remain unclaimed or unpaid for seven consecutive years or more. This is done in accordance with the Investor Education and Protection Fund (IEPF) Rules."
-    },
-    {
-        "question": "What is the Face Value of Shares?",
-        "answer": "The face value of a share is the original price of a share when it's first issued by a company. It's also known as the nominal or par value."
-    },
-    {
-        "question": "Is the Number of Shares Increased if the company has Split its Face Value?",
-        "answer": "Yes, when a company splits its face value (e.g., a share with a face value of Rs. 10 is split into 2 shares of Rs. 5 each), the number of shares increases proportionally, but the total value remains the same."
-    },
-    {
-        "question": "Is the Number of Shares Increased if the company has declared a Bonus Issue?",
-        "answer": "Yes, in a bonus issue, the company allots additional shares to existing shareholders for free, based on their existing holdings. This increases the number of shares held by each shareholder."
-    },
-    {
-        "question": "Can we directly file an IEPF Form for Claiming Shares?",
-        "answer": "Yes, you can directly file an IEPF Form (IEPF-5) for claiming your shares or dividend from the IEPF website."
-    },
-    {
-        "question": "What to do with the shares of your Father/Grandfather?",
-        "answer": "If the shares are still in physical form and not claimed for a long time, you need to first get them transmitted in your name through a legal process (like a will or succession certificate). After that, you can claim them from the company or IEPF, as applicable."
-    },
-    {
-        "question": "Who is RTA?",
-        "answer": "RTA stands for Registrar and Transfer Agent. They are appointed by companies to maintain shareholder records, handle share transfers, dividend payments, and other related activities."
-    },
-    {
-        "question": "What does RTA Do?",
-        "answer": "RTA's primary responsibilities include:\nMaintaining shareholder records.\nProcessing share transfers and transmissions.\nHandling dividend payments and reconciliation.\nIssuing share certificates (in physical form).\nDealing with shareholder queries and grievances."
-    },
-    {
-        "question": "What is a Dividend Warrant?",
-        "answer": "A dividend warrant is a document issued by a company to a shareholder as a payment for dividends. It is like a cheque and can be encashed at a bank."
-    },
-    {
-        "question": "What can we do if the Folio Number is not available but the Dividend Warrant is Available?",
-        "answer": "You should contact the company's RTA with the dividend warrant and request them to provide you with the folio number. They should be able to trace it based on the information on the warrant."
-    },
-    {
-        "question": "What is a Folio Number?",
-        "answer": "A folio number is a unique identification number assigned to each shareholder in the company's register. It helps in tracking their shareholding and transactions."
-    },
-    {
-        "question": "What is a Certificate Number?",
-        "answer": "A certificate number is a unique number assigned to each share certificate issued in physical form. It helps in identifying and tracking individual share certificates."
-    },
-    {
-        "question": "What is the 1st Step taken for Claiming Shares?",
-        "answer": "The first step is to ascertain the status of the shares (whether they are with the company, in the suspense account, or transferred to IEPF). Then, you need to gather all the necessary documents related to your shareholding and carry out KYC updation."
-    },
-    {
-        "question": "What is KYC Updation? What documents are required to submit for KYC Updation?",
-        "answer": "KYC (Know Your Customer) updation is the process of verifying the identity and address of the investor. Generally, you will need:\nIdentity proof (PAN card, Aadhaar card, Voter ID, etc.)\nAddress proof (Aadhaar card, Passport, Utility bills, etc.)\nCancelled cheque or bank account details\nProof of shareholding (share certificates, dividend warrants, etc.)"
-    },
-    {
-        "question": "Is a Demat Account Compulsory for Claiming back shares?",
-        "answer": "Yes, a Demat account is now mandatory for claiming shares from IEPF. The shares will be transferred to your Demat account after approval of your claim."
-    },
-    {
-        "question": "What is a Client Master List?",
-        "answer": "A client master list is a document maintained by the Depository Participant (DP) that contains all the details of the Demat account holders, including their personal information, PAN, address, and Demat account details."
-    },
-    {
-        "question": "What happens to the Unclaimed Dividend Amount?",
-        "answer": "if a dividend remains unclaimed by a shareholder, it is transferred to the Investor Education and Protection Fund (IEPF) after a specified period (usually seven years), where it can be claimed by the rightful owner by submitting a claim form to the relevant authorities managed by the Ministry of Corporate Affairs; essentially, the unclaimed dividend is not lost but held in a fund for potential future claims by the shareholder."
-    },
-    {
-        "question": "How and where to Open Demat Account?",
-        "answer": "You can open a Demat account with a SEBI-registered Depository Participant (DP). Many brokerage firms, banks, and financial institutions act as DPs. The process usually involves filling out an account opening form, submitting KYC documents (PAN card, address proof, etc.), and agreeing to the terms and conditions. You can open a Demat account online or offline."
-    },
-    {
-        "question": "Does shares jointly held by people require their demat account in joint name? How many Holders in One demat account?",
-        "answer": "Yes, shares held jointly should ideally be reflected in a Demat account held jointly by the same individuals. More than one individual can hold a Demat account jointly. The exact limit on the number of joint holders may vary by DP, but it is usually a reasonable number (e.g., up to three)."
-    },
-    {
-        "question": "How to Download Client Master List from Demat account?",
-        "answer": "You can usually download the client master list (detailing your holdings) from your DP's online portal or by contacting their customer service. The process varies depending on the DP."
-    },
-    {
-        "question": "What are basic documents needed for NRI?",
-        "answer": "NRIs need to provide documents like their PAN card, overseas address proof, Indian address proof (if applicable), passport, visa details, PIO or OCI card (if applicable), and any other documents specified by the DP and regulations.\nISR Forms & Share Certificates"
-    },
-    {
-        "question": "What is ISR 1 Form?",
-        "answer": "Form ISR-1 is an Investor Service Request form that allows investors to request changes to their PAN, KYC details, or nominations. It is used to register or update details for securities held in physical form, such as shares, bonds, or debentures"
-    },
-    {
-        "question": "What is ISR 2 Form? It should be attested by Bank Manager?",
-        "answer": "Form ISR-2 is a bank form that verifies the signature of a securities holder. It is used to update the signature of a securities holder. The bank manager attests the form by confirming that the signature matches the one on file with the bank."
-    },
-    {
-        "question": "Who can be Nominee?",
-        "answer": "A nominee can be a family member, friend, or any trusted person. The person who appoints the nominee is called the policyholder or account holder.."
-    },
-    {
-        "question": "What is ISR 3 Form?",
-        "answer": "Form ISR-3 is a declaration form for opting out of nomination for physical securities in listed companies. It is used by investors who do not want to name a person to receive their securities in the event of their death."
-    },
-    {
-        "question": "Is SH 13 Form for Registering Nominee in the Folio Number?",
-        "answer": "Yes, \"SH 13 Form\" is specifically used to register a nominee for a particular folio number, meaning it is the form used to designate who will inherit your shares in the event of your death, linked to your specific folio number in a company's shareholding records."
-    },
-    {
-        "question": "We have to submit both ISR 3 and SH 13 Form?",
-        "answer": "Yes, you may need to submit both Form SH-13 and Form ISR-3, depending on whether you want to nominate someone or opt out of nomination."
-    },
-    {
-        "question": "Which documents are required when there is a change of Surname of Holder?",
-        "answer": "Documents typically required include the old share certificate(s), a copy of the marriage certificate (for married women), a copy of the gazette notification (if applicable), identity proof, address proof, and a letter explaining the change."
-    },
-    {
-        "question": "Is Marriage Certificate a Valid document for Name change of Female in occasion of Marriage?",
-        "answer": "Yes, a marriage certificate is generally considered a valid document for a name change for a female after marriage."
-    },
-    {
-        "question": "When Name change Gazette is Needed?",
-        "answer": "A gazette notification is usually required when the name change is due to reasons other than marriage (e.g., personal choice, divorce). It is also sometimes required even after marriage, depending on the company's specific requirements."
-    },
-    {
-        "question": "In case of married female, whether passport having name of spouse is a valid document for proof of name change?",
-        "answer": "A passport with the spouse's name is generally accepted as supporting proof of a name change after marriage."
-    },
-    {
-        "question": "What to do when Share certificate is not available?",
-        "answer": "If a share certificate is lost, you need to apply for a duplicate share certificate by following the procedure mentioned for lost certificates (ISR forms, affidavit, indemnity bond, advertisement, etc.)."
-    },
-    {
-        "question": "What is the procedure for duplicate share for loss of share certificates?",
-        "answer": "The procedure involves filing an FIR with the police, submitting ISR forms (ISR-1, ISR-2, and possibly ISR-4), providing an affidavit and indemnity bond, publishing a notice in the newspaper, and paying the required fees."
-    },
-    {
-        "question": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond?",
-        "answer": "Yes, an affidavit and indemnity bond are mandatory for obtaining a duplicate share certificate."
-    },
-    {
-        "question": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond, It should be print on stamp paper and Duly Notarized?",
-        "answer": "Yes, the affidavit and indemnity bond should be printed on the appropriate stamp paper (as per the stamp duty applicable in your state) and duly notarized."
-    },
-    {
-        "question": "What is ISR 4 form? when it is required to submit?",
-        "answer": "ISR-4 is a form related to the issue of a duplicate share certificate. It is submitted along with the other ISR forms and supporting documents."
-    },
-    {
-        "question": "How NRI can issue Duplicate share certificate?",
-        "answer": "The process for NRIs is similar to residents, but they may need to provide additional documents, such as proof of their NRI status and overseas address. They might also need to get some documents attested by a foreign notary or the Indian embassy/consulate."
-    },
-    {
-        "question": "What is Apostille Notary/ Attested from India Counsel?",
-        "answer": "An Apostille is a certificate that authenticates the origin of a public document (like a birth certificate, marriage certificate, or a notarized document) for use in countries that are part of the Hague Convention. It confirms the authenticity of the signature, seal, or stamp on the document. Attestation from the Indian Consulate is a similar process for countries that are not part of the Hague Convention. It confirms the document's authenticity for use in that specific foreign country."
-    },
-    {
-        "question": "What is Difference in Notary and Registered Notary?",
-        "answer": "All notaries are essentially \"registered\" in the sense that they are licensed by the state government. There isn't a formal designation of \"registered notary\" as distinct from a regular notary. The key is that the notary must be licensed and authorized to perform notarial acts."
-    },
-    {
-        "question": "When advertisement is required?",
-        "answer": "Advertisement in a newspaper is usually required when applying for a duplicate share certificate to notify the public about the loss of the original certificate. This allows anyone with objections to come forward."
-    },
-    {
-        "question": "In advertisement what we have to publish?",
-        "answer": "The advertisement typically includes details of the lost share certificate(s), such as the certificate number(s), folio number(s), share class, number of shares, and the name of the shareholder. It also mentions the intent to issue a duplicate certificate."
-    },
-    {
-        "question": "In how many Newspaper advertisement to be publish?",
-        "answer": "The exact number of newspapers depends on the company's requirements and the regulations. Usually, it is published in at least two newspapers \u2013 one in English and one in a regional language circulating in the area where the registered office of the company is located."
-    },
-    {
-        "question": "Which documents need to be submit if there is Death of Joint Holder?",
-        "answer": "In the case of the death of a joint holder, the surviving joint holder(s) need to submit a copy of the death certificate, the original share certificate(s), a transmission request form, and their KYC documents to the company or the registrar."
-    },
-    {
-        "question": "What is name deletion form and when is it needed?",
-        "answer": "A name deletion form is used to remove the name of a joint holder from a share certificate or a Demat account. It is needed in situations like:\nDeath of a joint holder: The name of the deceased joint holder needs to be removed.\nDivorce or separation: If shares are jointly held by a couple who are now divorced, they may need to delete each other's names.\nMutual agreement: If joint holders mutually agree to remove one of the names, they can use this form."
-    },
-    {
-        "question": "In case of joint holding and one of the holder is not alive, whether the surviving holder needs NOC of the legal heirs of deceased holder?",
-        "answer": "Generally, No. In the case of joint holding with survivorship clause, the shares automatically get transmitted to the surviving joint holder(s). NOC from legal heirs of the deceased holder is usually not required unless there are complications or disputes. However, it's always prudent to check with the company's RTA (Registrar and Transfer Agent) for their specific requirements."
-    },
-    {
-        "question": "Who can claim shares if Holder is not alive?",
-        "answer": "If a share holder is not alive, the shares can be claimed by the nominee designated by the deceased, or if no nominee is appointed, then by the legal heirs of the deceased as per their inheritance rights, which would typically be determined by a will if one exists; otherwise, the legal heirs would be decided by the law of the jurisdiction where the deceased resided."
-    },
-    {
-        "question": "What is transmission procedure?",
-        "answer": "Transmission is the process of transferring shares to the legal heirs of a deceased shareholder. It involves submitting a death certificate, a transmission request form, and other relevant documents to the company or its RTA."
-    },
-    {
-        "question": "Who are legal heirs?",
-        "answer": "Legal heirs are the individuals who are legally entitled to inherit the property of the deceased. This is determined by the applicable succession laws (Hindu Succession Act, Muslim Personal Law, etc.) and/or a will."
-    },
-    {
-        "question": "What is Succession Certificate? Who Can Issue?",
-        "answer": "A succession certificate is a legal document issued by a court that identifies the legal heirs of a deceased person and entitles them to inherit the deceased's assets. It is issued by a competent court of jurisdiction."
-    },
-    {
-        "question": "When Succession Certificate is Needed and Cost to be incurred?",
-        "answer": "A succession certificate is needed when a person dies without a will (intestate) or when there is a dispute about the inheritance. The cost varies depending on the jurisdiction and the value of the assets."
-    },
-    {
-        "question": "What is a time Period for Succession Certificate?",
-        "answer": "The time period for obtaining a succession certificate varies but it usually takes several months to a few years, depending on court procedures and the complexity of the case."
-    },
-    {
-        "question": "What is Legal Heir Certificate? Who Can Issue?",
-        "answer": 
-        "A legal heir certificate is a document that identifies the legal heirs of a deceased person. In some states, it is issued by local government authorities (e.g., municipal corporation or revenue department). It is generally used for administrative purposes and may not be sufficient for transferring high-value assets like shares."
-    },
-    {
-        "question": "When Legal Heir Certificate is Needed and Cost to be incurred?",
-        "answer": "A legal heir certificate is often needed for settling insurance claims, government benefits, and other administrative matters. The cost is nominal."
-    },
-    {
-        "question": "What is a time Period for Legal Heir Certificate?",
-        "answer": "The time period is relatively shorter than a succession certificate, typically a few weeks to a few months."
-    },
-    {
-        "question": "What is Will/Probate of Will? Who Can Issue?",
-        "answer": "A will is a legal document in which a person expresses their wishes regarding the distribution of their property after their death. Probate is the legal process of verifying the authenticity of the will by a competent court. The court grants probate."
-    },
-    {
-        "question": "What is ISR 5 Form?",
-        "answer": "ISR-5 is a form related to the transmission of shares. It is a communication to the company from the surviving joint holder(s) or legal heirs regarding the death of a shareholder."
-    },
-    {
-        "question": "Is NOC is required from other legal Heir?",
-        "answer": "Generally, if a Succession Certificate or Probate is in place, NOC from other legal heirs is not strictly required. However, it's always advisable to obtain NOCs from all possible legal heirs to avoid potential disputes in the future."
-    },
-    {
-        "question": "Who all can be witness?",
-        "answer": "Any person who is of sound mind and not directly related to the transaction can be a witness. It's preferable to have independent witnesses."
-    },
-    {
-        "question": "Who are surety? When surety affidavit is required?",
-        "answer": "A surety is a person who guarantees the fulfillment of an obligation. Surety affidavits may be required in cases of lost share certificates or when the legal heirs are not immediately ascertainable. They provide a guarantee against any potential claims on the shares."
-    },
-    {
-        "question": "Can Surety and Witness can be a same person?",
-        "answer": "It is generally not advisable for the surety and witness to be the same person, as it can create a conflict of interest."
-    },
-    {
-        "question": "When FIR is needed?",
-        "answer": "An FIR (First Information Report) with the police is needed when the share certificates are lost or stolen. It is a mandatory step in the process of obtaining duplicate share certificates."
-    },
-    {
-        "question": "What should be Mention in FIR?",
-        "answer": "The FIR should include details of the lost/stolen share certificates (certificate numbers, folio numbers, number of shares, company name), when and how the loss occurred, and any other relevant information."
-    },
-    {
-        "question": "Is FIR should be Notarized?",
-        "answer": "An FIR is a document filed with the police; it is not notarized. However, you may need a certified copy of the FIR for submission to the company."
-    },
-    {
-        "question": "Is online FIR is Valid?",
-        "answer": "Yes, online FIRs are valid in many jurisdictions in India for certain types of offenses. Check with your local police department for their rules."
-    },
-    {
-        "question": "What is Entitlement Letter?",
-        "answer": "An entitlement letter is issued by the company to the legal heirs after the transmission process is complete. It confirms their entitlement to the shares."
-    },
-    {
-        "question": "Is Entitlement Letter is Compulsory before IEPF 5 Form?",
-        "answer": "An entitlement letter is generally required before filing IEPF Form 5."
-    },
-    {
-        "question": "What is IEPF Form 5?",
-        "answer": "IEPF Form 5 is an application to claim shares and dividends from the Investor Education and Protection Fund (IEPF) Authority. Shares that have remained unclaimed for seven years are transferred to the IEPF."
-    },
-    {
-        "question": "What documents required before filing IEPF 5 online?",
-        "answer": "Documents required typically include the death certificate of the original shareholder, succession certificate/probate of will/legal heir certificate, KYC documents of the claimant(s), proof of entitlement (entitlement letter from the company), and other documents as specified in the IEPF rules."
-    },
-    {
-        "question": "Which documents are required to submit if there is mismatch of name?",
-        "answer": "If there is a mismatch of name, you will need to submit supporting documents like a copy of your PAN card, Aadhaar card, marriage certificate (in case of women whose names have changed after marriage), gazette notification (for name changes), and an affidavit explaining the discrepancy."
-    },
-    {
-        "question": "Which documents are required to submit if there is mismatch of Address in KYC and Share certificate?",
-        "answer": "If there is a mismatch of address, you will need to submit updated KYC documents with the correct address, along with proof of the new address and an affidavit explaining the discrepancy."
-    },
-    {
-        "question": "Who are depositories?",
-        "answer": "Depositories are organizations that hold securities (like shares, bonds, etc.) in electronic form on behalf of investors. They act as custodians and facilitate the transfer and settlement of securities transactions. In India, the two main depositories are:\nNational Securities Depository Limited (NSDL)\nCentral Depository Services (India) Limited (CDSL)"
-    },
-    {
-        "question": "What is DRF form?",
-        "answer": "DRF stands for Dematerialisation Request Form. It's a document used to convert physical securities into electronic form."
-    },
-    {
-        "question": "What is Transposition?",
-        "answer": "Transposition is the re-arrangement of the names of joint holders on a share certificate. For example, if the order of names is changed from A, B, C to C, A, B, it is called transposition."
-    },
-    {
-        "question": "What if Company is closed or Unlisted from NSE and BSE?",
-        "answer": "If a company is closed (liquidated), the liquidator will outline the process for claiming any remaining assets, including shares. If a company is delisted, its shares can still be traded in the unlisted market, but the liquidity may be significantly lower. The process for transferring or selling unlisted shares will depend on the company and applicable regulations."
-    },
-    {
-        "question": "What is Transaction Statement?",
-        "answer": "A transaction statement is a record of all transactions related to your Demat account, including purchases, sales, transfers, and other activities. It is provided by your DP."
-    },
-    {
-        "question": "What is Holding Statement?",
-        "answer": "A holding statement shows the shares held in your Demat account at a specific point in time. It is also provided by your DP."
-    },
-    {
-        "question": "How shares in Demat are transferred to IEPF?",
-        "answer": "Shares are transferred to the IEPF if they have remained unclaimed for seven years. The company transfers the shares to the IEPF after sending several reminders to the shareholder."
-    },
-    {
-        "question": "How we can get which Company shares is transferred to IEPF from Demat account?",
-        "answer": "You can check with your DP or the company's RTA to find out if any of your shares have been transferred to the IEPF. The IEPF website may also have a searchable database."
-    },
-    {
-        "question": "We have to update KYC in Demat IEPF Shares?",
-        "answer": "Yes, KYC is required to claim shares from IEPF. You will need to update your KYC details as per the IEPF rules."
-    },
-    {
-        "question": "Before KYC Update, Aadhar and Pan card should be Linked of Claimant/Holder?",
-        "answer": "Yes, linking Aadhaar with PAN is generally mandatory for KYC compliance in India."
-    },
-    {
-        "question": "What is SRN Number?",
-        "answer": "SRN can stand for Service Request Number, which is a 14-digit number used in various contexts, including Aadhaar, payments, and shipping."
-    },
-    {
-        "question": "Once IEPF filed, how much time it will take for Approval?",
-        "answer": "The processing time for IEPF claims varies and can take several months, depending on the volume of applications and scrutiny by the IEPF authorities."
-    },
-    {
-        "question": "Once IEPF Approved, when shares is credited to Our Demat account?",
-        "answer": "After approval, the shares are usually credited to your Demat account within a few weeks."
-    },
-    {
-        "question": "If we have shares in both Suspense and IEPF account, which shares we have claim first?",
-        "answer": "You should prioritize claiming shares from the IEPF account as these have been transferred due to being unclaimed for a longer period. Suspense accounts might have a shorter timeframe. However, consult with professionals for your specific situation."
-    },
-    {
-        "question": "What are basic reason for Rejection of IEPF?",
-        "answer": "Common reasons for rejection include incomplete documentation, discrepancies in information, not meeting eligibility criteria, or lack of proper proof of entitlement."
-    },
-    {
-        "question": "Once IEPF rejected, we have to resubmit all documents?",
-        "answer": "You will usually need to rectify the deficiencies and resubmit the application with the required documents. You may not need to submit all documents again, only those that were incomplete or incorrect."
-    },
-    {
-        "question": "Is KYC is compulsory to Claim shares from IEPF?",
-        "answer": "Yes, KYC is mandatory to claim shares from IEPF."
-    },
-    {
-        "question": "What are the query raised by RTA for Issuing Entitlement Letter?",
-        "answer": "The RTA may raise queries regarding incomplete documentation, discrepancies in information, or issues with the transmission process. They may ask for additional proof of legal heirship or clarification on specific transactions."
-    },
-    {
-        "question": "By Submitting Notarized Death Certificate, Legal Heir can Claim shares from IEPF?",
-        "answer": "A death certificate is a necessary document, but it is generally not sufficient on its own. You will also need a succession certificate, probate of will, or legal heir certificate (depending on the circumstances) to establish legal ownership."
-    },
-    {
-        "question": "How many Joint Holder can be in one Share Certificate?",
-        "answer": "The maximum number of joint holders allowed on a share certificate is usually three, but it can vary depending on the company's articles of association."
-    },
-    {
-        "question": "Is Claimant is More than One Legal Heir?",
-        "answer": "Yes, in cases of multiple legal heirs, all of them can jointly make the claim. The shares will then be transferred to a Demat account opened in all their names or as otherwise directed by them."
-    },
-    {
-        "question": "What is Claim My Shares?",
-        "answer": "Claim My Shares is a professional firm specializing in retrieving unclaimed dividends, lost physical shares, share transmission, name changes, and re-claims from IEPF. We have offices across India, with headquarters in Mumbai.\n\n \n2. What are unclaimed shares and dividends?\nUnclaimed shares are stocks that belong to an investor but have not been claimed due to lost certificates, signature mismatches, or other reasons. Similarly, unclaimed dividends are the earnings distributed by a company that were never received by the shareholder.\n\n3. How can I check if I have unclaimed shares or dividends?\nYou can check unclaimed shares by:\nSearching the company’s investor section on their website.\nChecking with depositories like CDSL and NSDL.\nContacting Claim My Shares for professional assistance in locating and reclaiming your shares."
-    },
-    {
-        "question": "How do I claim unclaimed shares?",
-        "answer": "To claim your unclaimed shares, you typically need:\nProof of ownership (old share certificates, dividend receipts, etc.).\nKYC documents (PAN card, Aadhaar, etc.).\nA new Demat account (if you don't have one).\nApplication to the company’s registrar or IEPF (if shares are transferred to IEPF).\nClaim My Shares can handle the entire process for you.\nDematerialization (Demat) & Share Transfer"
-    },
-    {
-        "question": "What is a Demat account, and why do I need one?",
-        "answer": "A Demat account holds shares in electronic form. Since April 1, 2019, physical share transfers have been restricted, making Demat conversion mandatory for selling or transferring shares.\n\n6. How do I open a Demat account?\nChoose a Depository Participant (DP) registered with CDSL or NSDL.\nProvide KYC documents (Aadhaar, PAN, bank details, etc.).\nComplete the account opening form and verification."
-    },
-    {
-        "question": "What are the benefits of having a Demat account?",
-        "answer": "Safe and secure holding of securities.\nHassle-free transfer and trading of shares.\nProtection from loss, theft, or damage of physical shares.\nLower transaction costs and easy access to dividends.\nEligibility for loans against securities."
-    },
-    {
-        "question": "How do I convert physical shares into Demat form?",
-        "answer": "Open a Demat account.\nFill out a Dematerialization Request Form (DRF).\nSubmit original share certificates to your Depository Participant (DP).\nThe DP will forward it to the company/registrar for dematerialization.\nTransmission & Name Change"
-    },
-    {
-        "question": "What is the transmission of shares?",
-        "answer": "Transmission of shares refers to the transfer of shares due to the death of the shareholder. The legal heir or nominee can claim ownership by submitting:\n\nDeath certificate of the original shareholder.\nSuccession certificate or will (if applicable).\nKYC documents of the heir/nominee."
-    },
-    {
-        "question": "Can I transfer shares to a family member?",
-        "answer": "Yes, you can transfer shares to a family member, but it must be dematerialized first. Once in a Demat account, you can execute an off-market transfer through your Depository Participant.\n\n11. How do I change the name on my share certificates?\nTo change the name on share certificates (due to marriage, spelling errors, etc.), you need:\n\nA request letter to the company’s registrar.\nSupporting documents (marriage certificate, affidavit, etc.).\nOriginal share certificates (if in physical form).\nKYC documents for identity verification.\nIEPF (Investor Education and Protection Fund) Reclaims"
-    },
-    {
-        "question": "What happens if my shares are transferred to IEPF?",
-        "answer": "If dividends remain unclaimed for 7 consecutive years, the corresponding shares are transferred to IEPF (Investor Education and Protection Fund) under SEBI regulations.\n\n13. How do I reclaim shares from IEPF?\nTo reclaim shares from IEPF, follow these steps:\n\nCheck the IEPF website to confirm the transfer.\nSubmit Form IEPF-5 online.\nSend physical documents to the company’s registrar.\nAwait verification and approval from IEPF authorities.\nClaim My Shares can assist in this process to ensure a smooth and hassle-free reclaim.\n\n 14. Can I claim shares if I have lost the original share certificate?\nYes, you can reclaim lost shares by:\n\nFiling an FIR for the lost certificates.\nPublishing a newspaper advertisement as per company policy.\nApplying for duplicate share certificates."
-    },
-    {
-        "question": "What if my signature has changed over time?",
-        "answer": "If your signature no longer matches company records, you must:\n\nSubmit a signature verification form with your bank’s attestation.\nProvide identity proof (PAN, Aadhaar, etc.).\nSend a request to the company’s registrar for update approval."
-    },
-    {
-        "question": "Can I sell physical shares directly?",
-        "answer": "No, physical shares must be converted to Demat before selling. Since April 1, 2019, SEBI has banned physical share transfers, except for transmission or transposition.\n\n17. How long does it take to retrieve lost shares or dividends?\nThe timeline depends on the complexity of your case. Typically:\n\nDematerialization takes 2-4 weeks.\nTransmission or transfer takes 4-8 weeks.\nIEPF claims take 3-6 months, depending on approvals.\nClaim My Shares ensures timely follow-ups and expert handling to expedite the process."
-    },
-    {
-        "question": "How long does it take to retrieve lost shares or dividends?",
-        "answer": " The timeline depends on the complexity of your case. Typically: Dematerialization takes 2-4 weeks. Transmission or transfer takes 4-8 weeks. IEPF claims take 3-6 months, depending on approvals. Claim My Shares ensures timely follow-ups and expert handling to expedite the process."
-    },
-    {
-        "question": "How to Contact?",
-        "answer": "For expert assistance, reach out to us at:\n\n\uD83D\uDCCD Mumbai (Head Office)\nOffice No. 603 & 604, 6th Floor, Kushal Point, Ghatkopar West, Mumbai \u2013 400086\n\n\uD83D\uDCCD Pune (Viman Nagar)\nA Wing, Office 824, Nyati Express, Next to Baker Gauges India Pvt. Ltd, Viman Nagar, Pune \u2013 411014\n\n\uD83D\uDCCD Pune (Kharadi)\nOffice 715, Global Business Hub, Kharadi, Pune \u2013 411014\n\n\uD83D\uDCCD Kolkata\n6C, Shakespeare Court, 21A Shakespeare Sarani, Kolkata \u2013 700017"
-      },
-       {
-      "question": "1. IEPF kya hai?",
-      "answer": "Investor Education and Protection Fund (IEPF) Bharat sarkar dwara niveshakon ke hiton ki suraksha aur unki jagrukta badhane ke liye banaya gaya ek fund hai. Isme mainly woh dividend, shares aur paise hote hain jo 7 saal tak claim na hone ke baad yahan transfer ho jaate hain."
-    },
-     {
-      "question": "2. Companies ko shares IEPF mein kyun transfer karne chahiye?",
-      "answer": "Companies Companies Act, 2013 ke Section 124 ke under legally bound hoti hain ki agar kisi share pe 7 saal tak koi claim nahi aaya ho to use IEPF mein transfer kar diya jaye. Isse governance strong hoti hai aur investors ka interest safe rehta hai."
-    },
-     {
-      "question": "3. IEPF authority ka operation kaun karta hai?",
-      "answer": "IEPF authority ka operation Bharat sarkar ke Ministry of Corporate Affairs ke under hota hai."
-    },
-     {
-      "question": "4. Kya IEPF shares company ke paas hote hain?",
-      "answer": "Nahi, ek baar shares IEPF mein transfer ho jaayein to wo company ke paas nahi rehte, balki IEPF authority ke custody mein chale jaate hain."
-    },
-     {
-      "question": "5. Shares kab IEPF account mein transfer hote hain?",
-      "answer": "Jab kisi dividend ya share pe 7 saal tak koi claim nahi aata, tab woh IEPF account mein transfer ho jaata hai. Yeh period us din se count hota hai jab dividend declare hua ya share transfer hone layak bana tha."
-    },
-     {
-      "question": "6. Agar shares IEPF mein transfer ho jaayein to claim karne ki time limit kya hai?",
-      "answer": "Investor kabhi bhi IEPF se apne shares claim kar sakta hai. Iske liye koi fixed time limit nahi hai."
-    },
-     {
-      "question": "7. Unclaimed Shares kya hote hain?",
-      "answer": "Unclaimed shares woh hote hain jinpe shareholder ne claim nahi kiya hota — ye death, address change ya share certificate kho jaane ki wajah se ho sakta hai."
-    },
-     {
-      "question": "8. Unclaimed Dividend kya hota hai?",
-      "answer": "Unclaimed dividend woh hota hai jo company ne declare kiya ho lekin shareholder ne usse receive nahi kiya ho specified time ke andar."
-    },
-     {
-      "question": "9. Physical Shares kya hote hain?",
-      "answer": "Physical shares paper certificate ke form mein diye jaate hain. Ye demat shares se alag hote hain jo electronic form mein hote hain."
-    },
-     {
-      "question": "10. Shares Suspense Account mein kab transfer hote hain?",
-      "answer": "Agar 7 saal ya usse zyada time tak dividend claim nahi kiya gaya ho to shares Suspense Account mein transfer ho jaate hain, as per IEPF rules."
-    },
-     {
-      "question": "11. Share ki Face Value kya hoti hai?",
-      "answer": "Face Value woh moolya hota hai jis par share ko company ne first time issue kiya tha. Isse nominal value bhi kaha jaata hai."
-    },
-     {
-      "question": "12. Agar company ne Face Value split kiya ho to kya share quantity badhti hai?",
-      "answer": "Haan, agar ₹10 ka share ₹5 mein split hota hai to share ki quantity double ho jaati hai. Value wahi rehti hai."
-    },
-     {
-      "question": "13. Agar company ne Bonus Issue declare kiya ho to kya shares badhte hain?",
-      "answer": "Haan, Bonus Issue mein company free shares deti hai existing shareholders ko. Isse unke paas shares zyada ho jaate hain."
-    },
-     {
-      "question": "14. Kya hum direct IEPF form bhar ke share claim kar sakte hain?",
-      "answer": "Haan, aap IEPF-5 form online bhar ke IEPF website se apne shares ya dividend ka claim kar sakte hain."
-    },
-     {
-      "question": "15. Apne father/dada ke shares ke liye kya karna chahiye?",
-      "answer": "Agar shares physical form mein hain to pehle legal process (like will ya succession certificate) se unhe apne naam transfer karwana padega. Fir claim kiya ja sakta hai."
-    },
-     {
-      "question": "16. RTA kaun hota hai?",
-      "answer": "RTA ka matlab Registrar and Transfer Agent hota hai. Ye companies ke shareholder records manage karte hain aur transfers, dividends jaise kaam sambhalte hain."
-    },
-   {
-      "question": "17. RTA kya karta hai?",
-      "answer": "- Shareholder record maintain karta hai\n- Share transfer aur transmission process handle karta hai\n- Dividend distribute karta hai\n- Physical share certificate issue karta hai\n- Complaints ka resolution karta hai"
-    },
-   {
-      "question": "18. Dividend Warrant kya hota hai?",
-      "answer": "Dividend Warrant ek aisa document hota hai jise company dividend pay karne ke liye issue karti hai — yeh basically ek cheque hota hai jo bank mein deposit hota hai."
-    },
-   {
-      "question": "19. Agar Folio Number nahi pata ho lekin Dividend Warrant ho to kya karein?",
-      "answer": "Aap RTA se contact karke apna Dividend Warrant dikha kar Folio Number trace kar sakte hain."
-    },
-   {
-      "question": "20. Folio Number kya hota hai?",
-      "answer": "Folio Number ek unique ID hoti hai jo har shareholder ko di jaati hai company ke record mein. Isse shares track kiye ja sakte hain."
-    },
-   {
-    "question": "21. Pramanpatra sankhya kya hai?",
-    "answer": "Pramanpatra sankhya har physical share certificate par likhi ek unique number hoti hai. Isse certificate ki pehchaan aur tracking hoti hai."
-  },
-   {
-    "question": "22. Share claim karne ka pehla step kya hai?",
-    "answer": "Sabse pehle yeh pata lagana hai ki aapke shares kahan hain (company ke paas, suspense account mein ya IEPF mein transfer ho chuke hain). Uske baad related documents jama karke KYC update karna hota hai."
-  },
-   {
-    "question": "23. KYC update kya hota hai? Kaunse documents dene hote hain?",
-    "answer": "KYC (Know Your Customer) ek process hai jisse investor ki identity aur address verify kiya jata hai. Zaruri documents:\n- Pehchaan proof (PAN, Aadhaar, Voter ID etc.)\n- Address proof (Aadhaar, Passport, Bijli bill etc.)\n- Cancelled cheque ya bank details\n- Shareholding proof (Share certificate, dividend warrant etc.)"
-  },
-   {
-    "question": "24. Kya share claim karne ke liye Demat account zaruri hai?",
-    "answer": "Haan, ab IEPF se share claim karne ke liye valid demat account hona mandatory hai. Shares directly aapke demat account mein transfer hote hain."
-  },
-   {
-    "question": "25. Client Master List kya hoti hai?",
-    "answer": "Client Master List ek document hota hai jo DP (Depository Participant) maintain karta hai. Isme demat account holder ka naam, PAN, address, aur account details hote hain."
-  },
-   {
-    "question": "26. Unclaimed dividend ka kya hota hai?",
-    "answer": "Agar shareholder ne declared dividend specified time mein receive nahi kiya, to woh amount 7 saal ke baad IEPF mein transfer ho jaata hai. Baad mein claim kiya ja sakta hai."
-  },
-   {
-    "question": "27. Demat account kaise aur kahan kholen?",
-    "answer": "Aap kisi SEBI registered DP ke through online ya offline demat account khol sakte hain. Iske liye KYC documents, form aur aapki approval chahiye hoti hai."
-  },
-   {
-    "question": "28. Agar shares joint naam mein ho to kya joint demat account zaruri hai? Ek demat account mein kitne holders ho sakte hain?",
-    "answer": "Haan, joint shares ke liye joint holders ko milkar demat account open karna padta hai. Usually ek demat account mein 2 ya 3 holders ho sakte hain."
-  },
-   {
-    "question": "29. Demat account se Client Master List kaise download karein?",
-    "answer": "Apne DP ki website ya portal par login karke CML download kar sakte hain. Ya fir DP ke customer service se contact karke bhi mil sakti hai."
-  },
-   {
-    "question": "30. NRI ke liye kaunse documents chahiye?",
-    "answer": "NRI ko PAN, Indian aur foreign address proof (agar applicable ho), passport, visa, PIO/OCI card (agar applicable ho) aur other valid documents dene hote hain."
-  },
-   {
-    "question": "31. ISR-1 Form kya hai?",
-    "answer": "ISR-1 ek Investor Service Request Form hai jo PAN, KYC details ya nomination update karne ke liye use hota hai, especially physical securities ke cases mein."
-  },
-   {
-    "question": "32. ISR-2 Form kya hai? Kya isey bank manager se verify karana zaruri hai?",
-    "answer": "ISR-2 ek form hai jisme bank manager investor ke signature ko certify karta hai. Yeh ensure karta hai ki aapke bank mein diye gaye signature match karte hain."
-  },
-   {
-    "question": "33. Nominee kaun ho sakta hai?",
-    "answer": "Nominee koi bhi family member, friend ya trusted person ho sakta hai jise aap apne shares ke liye nominate karte hain."
-  },
-   {
-    "question": "34. ISR-3 Form kya hai?",
-    "answer": "ISR-3 ek declaration form hai jisme investor batata hai ki woh nomination nahi karna chahta. Yeh bhi physical securities ke liye hota hai."
-  },
-   {
-    "question": "35. Kya SH-13 Form folio number ke liye nominee register karne ke liye hota hai?",
-    "answer": "Haan, SH-13 ka use kisi specific folio ke liye nominee register karne ke liye hota hai."
-  },
-   {
-    "question": "36. Kya dono forms ISR-3 aur SH-13 submit karne padte hain?",
-    "answer": "Nahi, aapko ya to SH-13 ya ISR-3 mein se ek submit karna hota hai, yeh depend karta hai ki aap nomination karna chahte hain ya nahi."
-  },
-   {
-    "question": "37. Agar surname change ho jaye to kaunse documents lagenge?",
-    "answer": "Old share certificates, marriage certificate (agar married woman hai), gazette notification (agar applicable ho), ID proof, address proof aur ek letter dena padta hai."
-  },
-   {
-    "question": "38. Kya marriage certificate valid proof hai name change ke liye?",
-    "answer": "Haan, marriage ke baad name change ke liye marriage certificate ek valid proof mana jata hai."
-  },
-   {
-    "question": "39. Name change ke liye gazette notification kab zaruri hoti hai?",
-    "answer": "Gazette notification tab zaruri hoti hai jab name change kisi personal reason, divorce, ya other non-marriage reason se hua ho."
-  },
-   {
-    "question": "40. Kya married woman ke passport mein husband ka naam hona valid name change proof hai?",
-    "answer": "Haan, agar married woman ke passport mein husband ka naam likha hai to usse valid name change proof mana jata hai."
-  },
-   {
-    "question": "61. Kya IEPF se jude cases ke liye koi time limit hoti hai?",
-    "answer": "Haan, aapko apna claim 7 saal ke andar file karna hota hai. Uske baad shares aur dividend IEPF mein transfer kar diye jaate hain."
-  },
-   {
-    "question": "62. Kya main IEPF portal par online complaint register kar sakta/sakti hoon?",
-    "answer": "Haan, aap IEPF website par jaake 'Investor Services' section mein complaint register kar sakte hain."
-  },
-   {
-    "question": "63. Kya IEPF form submit karne ke baad uska status dekh sakte hain?",
-    "answer": "Haan, aap MCA portal par login karke SRN number ke through apne form ka status dekh sakte hain."
-  },
-   {
-    "question": "64. Agar mera claim reject ho gaya ho to kya karun?",
-    "answer": "Aapko rejection ka reason dekhkar required correction karke fir se naya claim file karna hoga."
-  },
-   {
-    "question": "65. Kya IEPF claim lene ke liye court jaana padta hai?",
-    "answer": "Generally nahi, lekin agar dispute ho ya legal inheritance ka issue ho to court order ki zarurat pad sakti hai."
-  },
-   {
-    "question": "66. IEPF mein transfer hue shares par right kaise prove karein?",
-    "answer": "Share certificate, identity proof, address proof aur supporting documents ke through aap apna right prove kar sakte hain."
-  },
-   {
-    "question": "67. IEPF claim ke time nominee ka kya role hota hai?",
-    "answer": "Agar shareholder ne nominee assign kiya ho to nominee directly IEPF se claim kar sakta hai."
-  },
-   {
-    "question": "68. Mrit shareholder ke case mein kaun claim kar sakta hai?",
-    "answer": "Legal heir, nominee ya successor proper documents ke sath claim file kar sakte hain."
-  },
-   {
-    "question": "69. IEPF claim process mein kitna time lagta hai?",
-    "answer": "Sare documents sahi hone par usually 60 se 120 din mein process complete ho jaata hai."
-  },
-   {
-    "question": "70. Kya main ek form se multiple companies ke claim kar sakta hoon?",
-    "answer": "Nahi, har company ke liye separate form aur documents submit karne padte hain."
-  },
-   {
-    "question": "71. Kya IEPF claim process free hoti hai?",
-    "answer": "Haan, lekin notary, stamp paper aur courier jaise kuch charges lag sakte hain."
-  },
-   {
-    "question": "72. Kya shares ka physical form mein hona zaruri hai?",
-    "answer": "Nahi, IEPF dono demat aur physical shares ke cases mein applicable hota hai."
-  },
-   {
-    "question": "73. Apne shares demat mein kyun convert karein?",
-    "answer": "Demat se process fast hoti hai aur physical documents ki requirement kam ho jaati hai."
-  },
-   {
-    "question": "74. Kya PAN card IEPF claim ke liye mandatory hai?",
-    "answer": "Haan, PAN card identity proof ke liye mandatory hai."
-  },
-   {
-    "question": "75. IEPF claim ka status kaise track karein?",
-    "answer": "Aap MCA portal par apna SRN number enter karke claim status check kar sakte hain."
-  },
-   {
-    "question": "76. Kya shareholder ka bank account zaruri hota hai?",
-    "answer": "Haan, claimed amount wahi bank account mein transfer hota hai jo documents mein diya gaya ho."
-  },
-   {
-    "question": "77. Kya IEPF claim ke liye passbook copy deni padti hai?",
-    "answer": "Haan, aapko self-attested passbook ya bank statement ki copy deni hoti hai as address/bank proof."
-  },
-   {
-    "question": "78. Kya NRI bhi IEPF claim file kar sakta hai?",
-    "answer": "Haan, NRI investors bhi valid documents ke sath claim file kar sakte hain."
-  },
-   {
-    "question": "79. Kya claim process ke liye agent ki zarurat hoti hai?",
-    "answer": "Yeh aapke upar hai — aap khud claim file kar sakte hain ya kisi professional ki madad le sakte hain."
-  },
-   {
-    "question": "80. Kya death certificate mandatory hai jab heir claim kare?",
-    "answer": "Haan, jab heir claim karta hai to mrit shareholder ka death certificate sabse important document hota hai."
-  },
-   {
-    "question": "81. Kya newspaper mein notice publish karna zaruri hai?",
-    "answer": "Generally nahi, lekin kuch special cases mein company notice publish karne ko keh sakti hai."
-  },
-   {
-    "question": "82. IEPF ke documents ko kaise verify karayein?",
-    "answer": "Documents ko notary ya gazetted officer se attest karwana zaruri hota hai."
-  },
-   {
-    "question": "83. Kya address proof zaruri hota hai?",
-    "answer": "Haan, address proof jaise Aadhaar, electricity bill ya bank statement dena padta hai."
-  },
-   {
-    "question": "84. Kya IEPF claim ke liye affidavit dena hota hai?",
-    "answer": "Haan, ek affidavit stamp paper par banana padta hai taaki claim ki authenticity prove ho sake."
-  },
-   {
-    "question": "85. Kya stamp paper affidavit aur indemnity bond ke liye chahiye hota hai?",
-    "answer": "Haan, affidavit aur indemnity bond dono stamp paper par banane padte hain."
-  },
-   {
-    "question": "86. Kaunse documents zaruri hote hain?",
-    "answer": "Share certificate, PAN card, ID proof, address proof, death certificate (agar applicable ho) dena padta hai."
-  },
-   {
-    "question": "87. Kya heir certificate zaruri hota hai?",
-    "answer": "Haan, agar nominee nahi hai to legal heir certificate zaruri hota hai."
-  },
-   {
-    "question": "88. Kya court order required hota hai?",
-    "answer": "Agar multiple claimants ho ya dispute ho to court order zaruri hota hai."
-  },
-   {
-    "question": "89. Kya IEPF directly shares bhejta hai?",
-    "answer": "Nahi, IEPF shares company ko transfer karta hai, jo fir aapke naam par demat mein transfer karti hai."
-  },
-   {
-    "question": "90. Kya email notification milti hai during claim process?",
-    "answer": "Haan, SRN number aur status updates email ke through share ki jaati hain."
-  },
-  {
-    "question": "91. Kya documents bhejne ke baad call ya follow-up zaruri hai?",
-    "answer": "Zaruri to nahi hai, lekin follow-up se process fast ho sakti hai."
-  },
-   {
-    "question": "92. Kya main kisi aur ki taraf se claim file kar sakta hoon?",
-    "answer": "Haan, agar aapke paas valid power of attorney ya legal authority ho to aap file kar sakte hain."
-  },
-   {
-    "question": "93. Kya documents post ya courier se bhej sakte hain?",
-    "answer": "Haan, aap documents trackable courier service se bhej sakte hain."
-  },
-   {
-    "question": "94. Kya duplicate share certificate IEPF ke liye valid hota hai?",
-    "answer": "Haan, agar company ne usse issue kiya ho to duplicate share certificate bhi valid hota hai."
-  },
-   {
-    "question": "95. Agar company ka naam change ho gaya ho to kya karein?",
-    "answer": "Aapko claim form mein company ka new name aur purane share certificate ka reference dena padta hai."
-  },
-   {
-    "question": "96. Kya IEPF claim par GST lagta hai?",
-    "answer": "Nahi, yeh ek investor service hai isliye GST applicable nahi hota."
-  },
-   {
-    "question": "97. Kis website par claim form bharna hota hai?",
-    "answer": "Aapko IEPF claim form Ministry of Corporate Affairs ki website https://www.iepf.gov.in par bharna hota hai."
-  },
-   {
-    "question": "98. Kya mobile number dena zaruri hai?",
-    "answer": "Haan, OTP verification aur contact ke liye mobile number dena mandatory hota hai."
-  },
-   {
-    "question": "99. Kya application ke liye Aadhaar linked hona zaruri hai?",
-    "answer": "Nahi, lekin Aadhaar identity proof ke roop mein use kiya ja sakta hai."
-  },
-   {
-    "question": "100. SRN number kaise milega?",
-    "answer": "Form submit karne ke baad SRN number aapke screen par dikhai deta hai aur email par bhi bheja jata hai."
-  },
-  {
-    "question": "IEPF क्या है?",
-    "answer": "Investor Education and Protection Fund (IEPF) भारत सरकार द्वारा निवेशकों के हितों की रक्षा और जागरूकता बढ़ाने के लिए स्थापित एक निधि है। इसमें मुख्य रूप से वे लाभांश, शेयर और अन्य राशियाँ शामिल होती हैं जो सात वर्षों तक दावा न किए जाने के कारण संचित हो जाती हैं।"
-  },
-  {
-    "question": "कंपनियों को शेयर IEPF में क्यों ट्रांसफर करने चाहिए?",
-    "answer": "कंपनियाँ कंपनियों अधिनियम, 2013 की धारा 124 के अंतर्गत कानूनी रूप से बाध्य होती हैं कि यदि शेयरों पर सात वर्षों तक कोई दावा नहीं किया गया हो तो उन्हें IEPF में ट्रांसफर किया जाए। इससे बेहतर गवर्नेंस सुनिश्चित होती है और निवेशकों के हित सुरक्षित रहते हैं।"
-  },
-  {
-    "question": "IEPF प्राधिकरण का संचालन कौन करता है?",
-    "answer": "IEPF प्राधिकरण का संचालन भारत सरकार के कॉर्पोरेट कार्य मंत्रालय (Ministry of Corporate Affairs) द्वारा किया जाता है।"
-  },
-  {
-    "question": "क्या IEPF शेयर कंपनी के पास होते हैं?",
-    "answer": "नहीं, एक बार जब शेयर IEPF को ट्रांसफर हो जाते हैं तो वे कंपनी के पास नहीं रहते, बल्कि IEPF प्राधिकरण की कस्टडी में चले जाते हैं।"
-  },
-  {
-    "question": "शेयर कब IEPF खाते में ट्रांसफर होते हैं?",
-    "answer": "जब किसी लाभांश या शेयर पर सात वर्षों तक कोई दावा नहीं किया गया हो, तब वे IEPF खाते में ट्रांसफर कर दिए जाते हैं। यह अवधि उस तिथि से शुरू होती है जब लाभांश घोषित किया गया था या शेयर ट्रांसफर के योग्य हुए थे।"
-  },
-  {
-    "question": "यदि शेयर IEPF में ट्रांसफर हो जाएं तो उन्हें क्लेम करने की समयसीमा क्या है?",
-    "answer": "निवेशक IEPF से अपने शेयर कभी भी क्लेम कर सकते हैं, इसकी कोई निर्धारित समयसीमा नहीं है।"
-  },
-  {
-    "question": "Unclaimed Shares क्या होते हैं?",
-    "answer": "Unclaimed Shares वे शेयर होते हैं जिन पर शेयरधारक द्वारा दावा नहीं किया गया हो। ऐसा मृत्यु, पता बदलने या शेयर सर्टिफिकेट खो जाने के कारण हो सकता है।"
-  },
-  {
-    "question": "Unclaimed Dividend क्या होता है?",
-    "answer": "Unclaimed Dividend वह लाभांश होता है जिसे कंपनी ने घोषित किया हो लेकिन शेयरधारक ने निर्दिष्ट समय के भीतर प्राप्त नहीं किया हो।"
-  },
-  {
-    "question": "Physical Shares क्या होते हैं?",
-    "answer": "Physical Shares वे शेयर होते हैं जो कागज के प्रमाणपत्र के रूप में जारी किए जाते हैं। ये डिमैट शेयरों से अलग होते हैं जो इलेक्ट्रॉनिक रूप में रखे जाते हैं।"
-  },
-  {
-    "question": "शेयर Suspense Account में कब ट्रांसफर होते हैं?",
-    "answer": "यदि लगातार सात वर्षों या उससे अधिक समय तक लाभांश का दावा नहीं किया गया हो, तो शेयर Suspense Account में ट्रांसफर कर दिए जाते हैं। यह प्रक्रिया IEPF नियमों के अनुसार होती है।"
-  },
-  {
-    "question": "शेयर की Face Value क्या होती है?",
-    "answer": "Face Value वह मूल मूल्य होता है जिस पर शेयर को कंपनी द्वारा पहली बार जारी किया गया होता है। इसे नाममात्र मूल्य या पार मूल्य भी कहा जाता है।"
-  },
-  {
-    "question": "यदि कंपनी ने Face Value को Split किया हो तो क्या शेयरों की संख्या बढ़ जाती है?",
-    "answer": "हाँ, जब कंपनी Face Value को Split करती है (जैसे ₹10 का शेयर दो ₹5 के शेयरों में), तो शेयरों की संख्या अनुपातिक रूप से बढ़ जाती है लेकिन कुल मूल्य वही रहता है।"
-  },
-  {
-    "question": "यदि कंपनी ने Bonus Issue घोषित की हो तो क्या शेयरों की संख्या बढ़ती है?",
-    "answer": "हाँ, Bonus Issue में कंपनी मौजूदा शेयरधारकों को उनके होल्डिंग के आधार पर अतिरिक्त शेयर मुफ्त में देती है। इससे हर शेयरधारक के पास शेयरों की संख्या बढ़ जाती है।"
-  },
-  {
-    "question": "क्या हम सीधे IEPF फॉर्म भरकर शेयर क्लेम कर सकते हैं?",
-    "answer": "हाँ, आप सीधे IEPF-5 फॉर्म भरकर IEPF वेबसाइट के माध्यम से अपने शेयर या लाभांश का दावा कर सकते हैं।"
-  },
-  {
-    "question": "अपने पिता/दादा के शेयरों के लिए क्या करना चाहिए?",
-    "answer": "यदि शेयर अभी भी फिजिकल फॉर्म में हैं और लंबे समय से क्लेम नहीं किए गए हैं, तो आपको पहले कानूनी प्रक्रिया (जैसे वसीयत या उत्तराधिकार प्रमाणपत्र) के माध्यम से उन्हें अपने नाम पर ट्रांसफर कराना होगा। उसके बाद आप कंपनी या IEPF से उन्हें क्लेम कर सकते हैं।"
-  },
-  {
-    "question": "RTA कौन होता है?",
-    "answer": "RTA का मतलब Registrar and Transfer Agent होता है। कंपनियाँ इन्हें शेयरधारकों के रिकॉर्ड को बनाए रखने और शेयर ट्रांसफर, लाभांश भुगतान जैसे कार्यों के लिए नियुक्त करती हैं।"
-  },
-  {
-    "question": "RTA क्या करता है?",
-    "answer": "RTA की मुख्य जिम्मेदारियाँ हैं:\n- शेयरधारकों के रिकॉर्ड का रख-रखाव\n- शेयर ट्रांसफर व ट्रांसमिशन की प्रक्रिया\n- लाभांश भुगतान\n- फिजिकल शेयर सर्टिफिकेट जारी करना\n- शेयरधारकों की शिकायतों का समाधान करना"
-  },
-  {
-    "question": "Dividend Warrant क्या होता है?",
-    "answer": "Dividend Warrant वह दस्तावेज होता है जिसे कंपनी लाभांश के भुगतान हेतु शेयरधारक को जारी करती है। यह एक तरह का चेक होता है जिसे बैंक में जमा किया जा सकता है।"
-  },
-  {
-    "question": "यदि Folio Number उपलब्ध न हो पर Dividend Warrant हो तो क्या करें?",
-    "answer": "आप कंपनी के RTA से संपर्क करें और Dividend Warrant प्रस्तुत करें। वे उस जानकारी के आधार पर आपका Folio Number पता कर सकते हैं।"
-  },
-  {
-    "question": "Folio Number क्या होता है?",
-    "answer": "Folio Number एक अद्वितीय पहचान संख्या होती है जो प्रत्येक शेयरधारक को कंपनी के रिकॉर्ड में दी जाती है। इससे उनके शेयर होल्डिंग को ट्रैक किया जा सकता है।"
-  },
-  {
-    "question": "प्रमाणपत्र संख्या क्या है?",
-    "answer": "प्रमाणपत्र संख्या प्रत्येक भौतिक शेयर प्रमाणपत्र को दी गई एक अद्वितीय संख्या होती है। यह प्रमाणपत्र की पहचान और ट्रैकिंग में सहायक होती है।"
-  },
-  {
-    "question": "शेयर क्लेम करने के लिए पहला कदम क्या है?",
-    "answer": "पहला कदम यह जानना है कि आपके शेयर कहाँ हैं (कंपनी के पास, सस्पेंस खाते में या IEPF में ट्रांसफर हो चुके हैं)। इसके बाद संबंधित दस्तावेज़ एकत्र करें और KYC अपडेट कराएं।"
-  },
-  {
-    "question": "KYC अपडेट क्या है? इसके लिए कौन-कौन से दस्तावेज़ देने होते हैं?",
-    "answer": "KYC (Know Your Customer) अपडेट एक प्रक्रिया है जिससे निवेशक की पहचान और पता सत्यापित किया जाता है। आवश्यक दस्तावेज़:\n- पहचान प्रमाण (PAN कार्ड, आधार कार्ड, वोटर ID आदि)\n- पता प्रमाण (आधार कार्ड, पासपोर्ट, बिजली का बिल आदि)\n- रद्द चेक या बैंक विवरण\n- शेयरधारिता का प्रमाण (शेयर सर्टिफिकेट, डिविडेंड वारंट आदि)"
-  },
-  {
-    "question": "क्या शेयर क्लेम करने के लिए डिमैट खाता अनिवार्य है?",
-    "answer": "हाँ, अब IEPF से शेयर क्लेम करने के लिए डिमैट खाता अनिवार्य है। क्लेम स्वीकृत होने पर शेयर आपके डिमैट खाते में ट्रांसफर किए जाते हैं।"
-  },
-  {
-    "question": "क्लाइंट मास्टर लिस्ट क्या होती है?",
-    "answer": "क्लाइंट मास्टर लिस्ट एक दस्तावेज़ होता है जिसे डिपॉजिटरी पार्टिसिपेंट (DP) द्वारा बनाए रखा जाता है, जिसमें डिमैट अकाउंट धारक की व्यक्तिगत जानकारी, PAN, पता और खाता विवरण शामिल होता है।"
-  },
-  {
-    "question": "अप्राप्त लाभांश राशि का क्या होता है?",
-    "answer": "यदि कोई लाभांश शेयरधारक द्वारा निर्धारित समय में प्राप्त नहीं किया जाता है, तो वह राशि सात वर्षों के बाद IEPF में ट्रांसफर कर दी जाती है। लाभार्थी इस राशि को उचित दावा पत्र भरकर वापस प्राप्त कर सकता है।"
-  },
-  {
-    "question": "डिमैट खाता कैसे और कहाँ खोलें?",
-    "answer": "आप किसी SEBI-पंजीकृत डिपॉजिटरी पार्टिसिपेंट (DP) के माध्यम से डिमैट खाता खोल सकते हैं। यह प्रक्रिया ऑनलाइन या ऑफलाइन हो सकती है और इसके लिए KYC दस्तावेज़, फॉर्म और सहमति की आवश्यकता होती है।"
-  },
-  {
-    "question": "यदि शेयर संयुक्त रूप से होल्ड किए गए हैं तो क्या संयुक्त नाम में डिमैट खाता आवश्यक है? एक डिमैट खाते में कितने धारक हो सकते हैं?",
-    "answer": "हाँ, संयुक्त शेयरों के लिए वही व्यक्ति संयुक्त रूप से डिमैट खाता खोलें जिनके नाम पर शेयर हैं। आम तौर पर 2-3 व्यक्ति एक डिमैट खाता संयुक्त रूप से होल्ड कर सकते हैं।"
-  },
-  {
-    "question": "डिमैट खाते से क्लाइंट मास्टर लिस्ट कैसे डाउनलोड करें?",
-    "answer": "आप अपने DP की वेबसाइट या पोर्टल पर जाकर क्लाइंट मास्टर लिस्ट डाउनलोड कर सकते हैं या ग्राहक सेवा से संपर्क करके प्राप्त कर सकते हैं। प्रक्रिया DP पर निर्भर करती है।"
-  },
-  {
-    "question": "NRI के लिए आवश्यक मूल दस्तावेज़ क्या हैं?",
-    "answer": "NRI को PAN कार्ड, विदेशी और भारतीय पता प्रमाण (यदि लागू हो), पासपोर्ट, वीजा विवरण, PIO/OCI कार्ड (यदि लागू हो), और अन्य प्रासंगिक दस्तावेज़ प्रस्तुत करने होते हैं।"
-  },
-  {
-    "question": "क्या किसी अन्य व्यक्ति के नाम पर शेयर क्लेम किए जा सकते हैं?",
-    "answer": "हाँ, आप किसी और के नाम पर शेयर क्लेम कर सकते हैं यदि आप कानूनी उत्तराधिकारी हैं या आपके पास वैध उत्तराधिकार प्रमाण पत्र, वसीयत या अदालत द्वारा जारी उत्तराधिकार पत्र है।"
-  },
-  {
-    "question": "Transmission और Transfer में क्या अंतर है?",
-    "answer": "Transfer तब होता है जब शेयर धारक जीवित हो और वह स्वेच्छा से अपने शेयर किसी और को ट्रांसफर करे। Transmission तब होता है जब शेयरधारक की मृत्यु हो गई हो और शेयर कानूनी उत्तराधिकारी को ट्रांसफर किए जाएं।"
-  },
-  {
-    "question": "अगर शेयरधारक की मृत्यु हो गई हो तो क्या करें?",
-    "answer": "आपको पहले Transmission प्रक्रिया पूरी करनी होगी और शेयर अपने नाम पर ट्रांसफर कराने होंगे। इसके लिए मृत्यु प्रमाणपत्र, पहचान प्रमाण, उत्तराधिकार प्रमाणपत्र आदि की आवश्यकता होती है।"
-  },
-  {
-    "question": "क्या Court का Succession Certificate देना अनिवार्य है?",
-    "answer": "यह आवश्यक नहीं है, लेकिन यदि वसीयत नहीं है या कई उत्तराधिकारी हैं, तो Succession Certificate उपयोगी होता है। कंपनी या IEPF कुछ मामलों में इसे अनिवार्य कर सकते हैं।"
-  },
-  {
-    "question": "नॉमिनी के मामले में क्या प्रक्रिया होती है?",
-    "answer": "यदि नॉमिनी रजिस्टर्ड है, तो उसे केवल मृत्यु प्रमाणपत्र और पहचान/पता प्रमाण के साथ आवेदन देना होता है। प्रक्रिया अपेक्षाकृत सरल होती है।"
-  },
-  {
-    "question": "कंपनी/IEPF से संपर्क कैसे करें?",
-    "answer": "आप संबंधित कंपनी या उसके RTA की वेबसाइट पर जाकर संपर्क विवरण प्राप्त कर सकते हैं। IEPF से संपर्क करने के लिए www.iepf.gov.in पर जाएं।"
-  },
-  {
-    "question": "IEPF Claim की स्थिति कैसे जानें?",
-    "answer": "IEPF वेबसाइट (www.iepf.gov.in) पर लॉग इन करके आप अपने क्लेम की स्थिति ऑनलाइन ट्रैक कर सकते हैं। इसके लिए SRN नंबर की आवश्यकता होती है।"
-  },
-  {
-    "question": "क्या क्लेम प्रक्रिया में Court जाना जरूरी होता है?",
-    "answer": "सामान्यतः नहीं। लेकिन यदि उत्तराधिकार विवाद है या Succession Certificate की आवश्यकता है, तो कोर्ट जाना पड़ सकता है।"
-  },
-  {
-    "question": "कंपनी से संपर्क किए बिना सीधे IEPF क्लेम कर सकते हैं?",
-    "answer": "नहीं, IEPF क्लेम के लिए आपको कंपनी को भी आवश्यक दस्तावेज़ भेजने होते हैं ताकि वे आपकी पुष्टि करें और रिपोर्ट IEPF को भेज सकें।"
-  },
-  {
-    "question": "यदि कोई दस्तावेज़ गायब हो गया हो तो क्या करें?",
-    "answer": "आपको पुलिस रिपोर्ट (FIR/NC), समाचार पत्र में विज्ञापन और एफिडेविट के माध्यम से गुम दस्तावेज़ की घोषणा करनी होती है। इससे उसका विकल्प तैयार किया जा सकता है।"
-  },
-  {
-    "question": "क्या Death Certificate की Original कॉपी भेजनी होती है?",
-    "answer": "नहीं, आमतौर पर नोटरीकृत कॉपी पर्याप्त होती है। लेकिन कुछ कंपनियाँ मूल प्रति की मांग कर सकती हैं, जो बाद में लौटाई जाती है।"
-  },
-  {
-    "question": "क्लेम प्रक्रिया में कितना समय लगता है?",
-    "answer": "सामान्यतः IEPF क्लेम प्रक्रिया में 3 से 6 महीने तक का समय लगता है, दस्तावेज़ों की पूर्णता और पुष्टि पर निर्भर करता है।"
-  },
-  {
-    "question": "क्या Shareholder की फोटो भी आवश्यक होती है?",
-    "answer": "हाँ, KYC के लिए शेयरधारक की पासपोर्ट साइज फोटो भी आवश्यक दस्तावेज़ों में से एक होती है।"
-  },
-  {
-    "question": "डाक से भेजे दस्तावेज़ किस पते पर भेजें?",
-    "answer": "दस्तावेज़ संबंधित कंपनी के RTA कार्यालय या कंपनी के पते पर भेजे जाते हैं। IEPF को भौतिक दस्तावेज़ नहीं भेजे जाते।"
-  },
-  {
-    "question": "क्या क्लेम में कोई फीस लगती है?",
-    "answer": "IEPF-5 फॉर्म भरने की कोई फीस नहीं होती है। लेकिन नोटरी, कोर्ट फीस या पेशेवर सेवा शुल्क अलग हो सकते हैं।"
-  },
-  {
-    "question": "क्या वकील या एजेंट की आवश्यकता होती है?",
-    "answer": "नहीं, यदि आप प्रक्रिया को स्वयं समझ लें तो वकील या एजेंट की आवश्यकता नहीं है। लेकिन जटिल मामलों में सलाह उपयोगी हो सकती है।"
-  },
-  {
-    "question": "क्या हर कंपनी का IEPF फॉर्म और प्रक्रिया समान होती है?",
-    "answer": "IEPF फॉर्म IEPF पोर्टल पर समान होता है, लेकिन दस्तावेज़ों की डिमांड और प्रक्रिया कुछ हद तक कंपनी या RTA पर निर्भर करती है।"
-  },
-  {
-    "question": "यदि PAN नंबर उपलब्ध न हो तो क्या करें?",
-    "answer": "आपको नया PAN बनवाना होगा। क्लेम प्रक्रिया में PAN नंबर अनिवार्य दस्तावेज़ों में से एक है।"
-  },
-  {
-    "question": "क्या Email ID और Mobile Number अनिवार्य हैं?",
-    "answer": "हाँ, KYC अपडेट और क्लेम प्रक्रिया के दौरान ईमेल और मोबाइल नंबर अनिवार्य होते हैं ताकि OTP और अन्य सूचनाएँ भेजी जा सकें।"
-  },
-  {
-    "question": "क्या पते में अंतर होने पर क्लेम रिजेक्ट हो सकता है?",
-    "answer": "हाँ, यदि कंपनी के रिकॉर्ड में दर्ज पता और प्रस्तुत दस्तावेज़ों में अंतर है तो क्लेम में बाधा आ सकती है। ऐसे में एड्रेस अपडेट पहले करवाना ज़रूरी है।"
-  },
-  {
-    "question": "क्या पुराने बैंक अकाउंट की जानकारी देना जरूरी है?",
-    "answer": "हाँ, जिस बैंक में पहले डिविडेंड आता था उसकी जानकारी देना आवश्यक होता है, ताकि रिकॉर्ड का मिलान किया जा सके।"
-  },
-  {
-    "question": "अगर पुराना बैंक खाता बंद हो गया हो तो क्या करें?",
-    "answer": "आप नया बैंक खाता जोड़ सकते हैं। क्लेम फॉर्म में नए बैंक की चेक कॉपी और स्टेटमेंट लगाना होगा।"
-  },
-  {
-    "question": "IEPF Claim की राशि कहां ट्रांसफर होती है?",
-    "answer": "स्वीकृत राशि और शेयर क्लेम करने वाले के बैंक खाते में सीधे ट्रांसफर कर दिए जाते हैं।"
-  },
-  {
-    "question": "क्या नाबालिग (minor) के नाम से भी क्लेम किया जा सकता है?",
-    "answer": "हाँ, लेकिन उस स्थिति में अभिभावक को वैध दस्तावेज़ों के साथ क्लेम करना होगा और Minor declaration देना होगा।"
-  },
-  {
-    "question": "क्या पासपोर्ट अनिवार्य दस्तावेज़ है?",
-    "answer": "नहीं, लेकिन यदि आपका पता विदेश का है तो पासपोर्ट पहचान और पते के प्रमाण के रूप में आवश्यक हो सकता है।"
-  },
-  {
-    "question": "क्या Aadhaar और PAN ही पर्याप्त होते हैं?",
-    "answer": "हाँ, भारत में रहने वाले व्यक्ति के लिए PAN और Aadhaar ही सामान्यतः पर्याप्त होते हैं।"
-  },
-  {
-    "question": "क्या Joint Holder के मामले में सभी के दस्तावेज़ चाहिए?",
-    "answer": "हाँ, यदि शेयर संयुक्त नाम में हैं तो सभी धारकों के दस्तावेज़ और सहमति आवश्यक होती है।"
-  },
-  {
-    "question": "क्या Nominee को भी PAN देना जरूरी है?",
-    "answer": "हाँ, Nominee के क्लेम के लिए PAN आवश्यक होता है।"
-  },
-  {
-    "question": "यदि नाम में अंतर हो तो क्या करें?",
-    "answer": "नाम में अंतर होने पर एफिडेविट और नाम सुधार के दस्तावेज़ जैसे गजट नोटिफिकेशन प्रस्तुत करना होता है।"
-  },
-  {
-    "question": "क्या नाम में spelling mistake क्लेम को रोक सकती है?",
-    "answer": "हाँ, नाम में छोटा अंतर भी क्लेम रिजेक्ट कर सकता है, इसलिए समानता सुनिश्चित करनी चाहिए।"
-  },
-  {
-    "question": "क्या Share Certificate खो गया हो तो क्लेम किया जा सकता है?",
-    "answer": "हाँ, FIR, एफिडेविट और अखबार में विज्ञापन देकर शेयर सर्टिफिकेट का डुप्लीकेट जारी किया जा सकता है और फिर क्लेम किया जा सकता है।"
-  },
-  {
-    "question": "क्या डिमैट अकाउंट अनिवार्य है?",
-    "answer": "हाँ, IEPF से क्लेम किए गए शेयर सीधे आपके डिमैट खाते में ट्रांसफर होते हैं।"
-  },
-  {
-    "question": "क्या डिमैट खाता claimant के नाम से ही होना चाहिए?",
-    "answer": "हाँ, डिमैट खाता उसी व्यक्ति के नाम से होना चाहिए जो क्लेम कर रहा है।"
-  },
-  {
-    "question": "क्या किसी और के डिमैट खाते में शेयर ट्रांसफर हो सकते हैं?",
-    "answer": "नहीं, केवल क्लेम करने वाले के नाम का डिमैट खाता ही मान्य होता है।"
-  },
-  {
-    "question": "क्या डिमैट खाता किसी भी DP में हो सकता है?",
-    "answer": "हाँ, NSDL या CDSL में किसी भी DP के साथ खोला गया खाता मान्य होता है।"
-  },
-  {
-    "question": "क्या मोबाइल नंबर पर OTP आता है?",
-    "answer": "हाँ, IEPF फॉर्म भरते समय मोबाइल पर OTP भेजा जाता है, जिससे पहचान सत्यापित होती है।"
-  },
-  {
-    "question": "IEPF Claim में कौन से फॉर्म लगते हैं?",
-    "answer": "IEPF-5 ऑनलाइन फॉर्म होता है। इसके साथ physical documents कंपनी को भेजने होते हैं।"
-  },
-  {
-    "question": "क्या IEPF-5 फॉर्म रिवाइज किया जा सकता है?",
-    "answer": "नहीं, एक बार सबमिट हो जाने के बाद IEPF-5 फॉर्म संशोधित नहीं किया जा सकता। गलती होने पर नया फॉर्म भरना होता है।"
-  },
-  {
-    "question": "SRN नंबर क्या होता है?",
-    "answer": "SRN (Service Request Number) IEPF फॉर्म सबमिट करते समय जनरेट होता है और क्लेम ट्रैकिंग के लिए उपयोग किया जाता है।"
-  },
-  {
-    "question": "क्या क्लेम पूरा होने के बाद कोई मेल या नोटिफिकेशन आता है?",
-    "answer": "हाँ, क्लेम अप्रूव या रिजेक्ट होने पर आपके रजिस्टर्ड ईमेल पर सूचना भेजी जाती है।"
-  },
-  {
-    "question": "क्लेम रिजेक्ट हो जाए तो क्या करें?",
-    "answer": "अगर क्लेम रिजेक्ट हो जाए तो कारण जानकर आप दोबारा सही दस्तावेज़ों के साथ नया IEPF-5 फॉर्म भर सकते हैं।"
-  },
-  {
-    "question": "क्लेम की स्थिति कितने समय में अपडेट होती है?",
-    "answer": "आमतौर पर क्लेम की स्थिति 30 से 60 दिनों में अपडेट होती है, लेकिन दस्तावेज़ों की जांच और पुष्टि पर समय बढ़ भी सकता है।"
-  },
-  {
-    "question": "क्या क्लेम को ट्रैक करने के लिए SRN काफी है?",
-    "answer": "हाँ, SRN नंबर से आप IEPF पोर्टल पर अपने क्लेम की स्थिति ट्रैक कर सकते हैं।"
-  },
-  {
-    "question": "क्या क्लेम करने के लिए इंडिया में होना जरूरी है?",
-    "answer": "नहीं, विदेश में रहने वाले व्यक्ति भी क्लेम कर सकते हैं, लेकिन वैध दस्तावेज़ और Apostille/Attestation आवश्यक होता है।"
-  },
-  {
-    "question": "क्या विदेशियों के लिए प्रक्रिया अलग है?",
-    "answer": "हाँ, विदेश से दस्तावेज़ भेजते समय notarization और Apostille की आवश्यकता होती है।"
-  },
-  {
-    "question": "क्या कोई सीमा है कि कब तक IEPF से क्लेम किया जा सकता है?",
-    "answer": "नहीं, आप किसी भी समय IEPF से क्लेम कर सकते हैं, इसकी कोई समयसीमा नहीं है।"
-  },
-  {
-    "question": "क्या Death Certificate हिंदी में मान्य है?",
-    "answer": "हाँ, लेकिन इंग्लिश ट्रांसलेशन के साथ देना अधिक उपयुक्त होता है।"
-  },
-  {
-    "question": "क्या क्लेम करने के बाद कॉल करके अपडेट लिया जा सकता है?",
-    "answer": "हाँ, आप कंपनी या RTA से कॉल या ईमेल के जरिए संपर्क कर सकते हैं, लेकिन SRN नंबर बताना होगा।"
-  },
-  {
-    "question": "क्या RTA और कंपनी दोनों से संपर्क करना पड़ता है?",
-    "answer": "हाँ, दस्तावेज़ कंपनी को भेजने होते हैं लेकिन अक्सर प्रक्रिया RTA संभालता है। दोनों से संपर्क बनाए रखना चाहिए।"
-  },
-  {
-    "question": "क्या बिना POA के भी कोई और क्लेम कर सकता है?",
-    "answer": "नहीं, अगर आप किसी और की ओर से क्लेम कर रहे हैं तो आपको Power of Attorney (POA) देना होगा।"
-  },
-  {
-    "question": "क्या Court Affidavit और POA एक जैसे होते हैं?",
-    "answer": "नहीं, दोनों अलग होते हैं। POA में आप किसी को अधिकार देते हैं जबकि Court Affidavit एक शपथ पत्र होता है।"
-  },
-  {
-    "question": "क्लेम रिजेक्ट होने पर पैसा वापस आता है?",
-    "answer": "नहीं, क्योंकि कोई पैसा डेबिट नहीं होता। क्लेम रिजेक्ट होने पर आप दोबारा सही दस्तावेज़ों से आवेदन कर सकते हैं।"
-  },
-  {
-    "question": "क्या क्लेम करने के लिए शेयर वैल्यू जरूरी है?",
-    "answer": "नहीं, IEPF में जमा शेयर चाहे कितने भी मूल्य के हों, आप उन्हें क्लेम कर सकते हैं।"
-  },
-  {
-    "question": "क्या एक ही फॉर्म से कई कंपनी के शेयर क्लेम किए जा सकते हैं?",
-    "answer": "नहीं, हर कंपनी के लिए अलग IEPF-5 फॉर्म भरना होता है।"
-  },
-  {
-    "question": "क्या ऑनलाइन फॉर्म भरने के बाद दस्तावेज़ स्कैन करके भेज सकते हैं?",
-    "answer": "नहीं, स्कैन की हुई कॉपी मान्य नहीं है। आपको भौतिक दस्तावेज़ कंपनी या RTA के पते पर भेजने होते हैं।"
-  },
-  {
-    "question": "क्या IEPF के पास कस्टमर सपोर्ट है?",
-    "answer": "हाँ, IEPF की वेबसाइट पर संपर्क जानकारी होती है और आप grievance पोर्टल पर भी शिकायत दर्ज कर सकते हैं।"
-  },
-  {
-    "question": "क्या Transfer deed फॉर्म आज भी जरूरी होता है?",
-    "answer": "अगर पुराने physical shares हैं और transmission या duplicate के लिए भेजे जा रहे हैं तो कुछ मामलों में Transfer deed की ज़रूरत पड़ सकती है।"
-  },
-  {
-    "question": "क्या Court order के बिना भी क्लेम किया जा सकता है?",
-    "answer": "हाँ, अगर सभी दस्तावेज़ सही हैं और कोई विवाद नहीं है, तो Court order के बिना भी क्लेम स्वीकृत हो सकता है।"
-  },
-  {
-    "question": "क्या IEPF क्लेम की पुष्टि के लिए कोई Letter आता है?",
-    "answer": "हाँ, कंपनी द्वारा verification रिपोर्ट भेजे जाने के बाद IEPF स्वीकृति/अस्वीकृति का ईमेल भेजता है।"
-  },
-  {
-    "question": "क्या अलग-अलग उत्तराधिकारियों को हिस्सेदारी मिलती है?",
-    "answer": "हाँ, अगर कई कानूनी उत्तराधिकारी हैं तो उन्हें हिस्सेदारी के अनुपात में शेयर ट्रांसफर किए जाते हैं, बशर्ते सहमति हो।"
-  },
-  {
-    "question": "क्या क्लेम करने के लिए वसीयत (Will) मान्य होती है?",
-    "answer": "हाँ, यदि वसीयत वैध और नोटरीकृत हो या कोर्ट द्वारा प्रोबेट की गई हो, तो उसे उत्तराधिकार के प्रमाण के रूप में उपयोग किया जा सकता है।"
-  },
-  {
-    "question": "क्या Probate के बिना वसीयत मान्य होती है?",
-    "answer": "केवल कुछ मामलों में। लेकिन अधिकतर कंपनियाँ कोर्ट से Probate की मांग करती हैं।"
-  },
-  {
-    "question": "क्या Adopted child भी क्लेम कर सकता है?",
-    "answer": "हाँ, यदि दत्तक ग्रहण वैध है और प्रमाण मौजूद हैं, तो वह उत्तराधिकारी के रूप में क्लेम कर सकता है।"
-  },
-  {
-    "question": "क्या Nominee और Legal heir में अंतर होता है?",
-    "answer": "हाँ, Nominee केवल ट्रस्टी होता है। यदि वसीयत या उत्तराधिकार प्रमाण है, तो Legal heir को प्राथमिकता दी जाती है।"
-  },
-  {
-    "question": "क्या क्लेम के साथ मूल शेयर सर्टिफिकेट भेजना जरूरी है?",
-    "answer": "हाँ, अगर आपके पास है तो मूल सर्टिफिकेट भेजना जरूरी होता है, नहीं तो FIR और affidavit देना होता है।"
-  },
-  {
-    "question": "क्या पुराने पते से आवेदन करने में दिक्कत होगी?",
-    "answer": "हाँ, आवेदन में वर्तमान और पुराने पते का संबंध प्रमाणित करना जरूरी होगा, जैसे आधार अपडेट या बैंक स्टेटमेंट।"
-  },
-  {
-    "question": "क्या Court Succession Certificate जरूरी है?",
-    "answer": "यदि कोई nominee नहीं है और क्लेम legal heir द्वारा किया जा रहा है तो Succession Certificate ज़रूरी हो सकता है।"
-  },
-  {
-    "question": "क्या Widow को पति के शेयर पर क्लेम मिल सकता है?",
-    "answer": "हाँ, यदि वो उत्तराधिकारी है और death certificate व अन्य दस्तावेज़ों के साथ आवेदन करे तो।"
-  },
-  {
-    "question": "क्या एक से अधिक उत्तराधिकारी हो सकते हैं?",
-    "answer": "हाँ, लेकिन सभी को सहमति पत्र और आवश्यक दस्तावेज़ों के साथ संयुक्त रूप से आवेदन करना होता है।"
-  },
   {
-    "question": "क्या क्लेम की राशि पर टैक्स लगता है?",
-    "answer": "नहीं, IEPF से प्राप्त क्लेम राशि और शेयरों पर कोई टैक्स नहीं लगता क्योंकि यह पहले से आपकी संपत्ति है।"
+    "id": 1,
+    "question": {
+      "english": "hello",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Hi! How can I assist you?",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "english": "yes",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Please specify your query?",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "english": "no",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Thank you for Using Bhanje the chatbot, hope the bot was usefull to resolve your query",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "english": "hi",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Hello! How can I assist you?",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "english": "what is your name",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "I am Bhanje your chatbot assistant.",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 6,
+    "question": {
+      "english": "what is AI",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Artificial Intelligence (AI) is the simulation of human intelligence in machines.",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 7,
+    "question": {
+      "english": "What is IEPF?",
+      "hinglish": "IEPF kya hai?",
+      "hindi": "IEPF क्या है?"
+    },
+    "answer": {
+      "english": "The Investor Education and Protection Fund (IEPF) is a fund set up by the Indian government to protect the interests of investors and promote investor awareness. It is primarily funded by unclaimed dividends, shares, and other amounts that have remained unclaimed by investors for a period of seven years.",
+      "hinglish": "Investor Education and Protection Fund (IEPF) Bharat sarkar dwara niveshakon ke hiton ki suraksha aur unki jagrukta badhane ke liye banaya gaya ek fund hai. Isme mainly woh dividend, shares aur paise hote hain jo 7 saal tak claim na hone ke baad yahan transfer ho jaate hain.",
+      "hindi": "Investor Education and Protection Fund (IEPF) भारत सरकार द्वारा निवेशकों के हितों की रक्षा और जागरूकता बढ़ाने के लिए स्थापित एक निधि है। इसमें मुख्य रूप से वे लाभांश, शेयर और अन्य राशियाँ शामिल होती हैं जो सात वर्षों तक दावा न किए जाने के कारण संचित हो जाती हैं।"
+    }
+  },
+  {
+    "id": 8,
+    "question": {
+      "english": "Why companies should transfer the shares to IEPF?",
+      "hinglish": "Companies ko shares IEPF mein kyun transfer karne chahiye?",
+      "hindi": "कंपनियों को शेयर IEPF में क्यों ट्रांसफर करने चाहिए?"
+    },
+    "answer": {
+      "english": "Companies are legally obligated under Section 124 of the Companies Act, 2013 to transfer shares to the IEPF if they remain unclaimed for seven years. This ensures better governance and protects investor interests by preventing companies from misusing unclaimed assets.",
+      "hinglish": "Companies Companies Act, 2013 ke Section 124 ke under legally bound hoti hain ki agar kisi share pe 7 saal tak koi claim nahi aaya ho to use IEPF mein transfer kar diya jaye. Isse governance strong hoti hai aur investors ka interest safe rehta hai.",
+      "hindi": "कंपनियाँ कंपनियों अधिनियम, 2013 की धारा 124 के अंतर्गत कानूनी रूप से बाध्य होती हैं कि यदि शेयरों पर सात वर्षों तक कोई दावा नहीं किया गया हो तो उन्हें IEPF में ट्रांसफर किया जाए। इससे बेहतर गवर्नेंस सुनिश्चित होती है और निवेशकों के हित सुरक्षित रहते हैं।"
+    }
+  },
+  {
+    "id": 9,
+    "question": {
+      "english": "Who is handling IEPF authority?",
+      "hinglish": "IEPF authority ka operation kaun karta hai?",
+      "hindi": "IEPF प्राधिकरण का संचालन कौन करता है?"
+    },
+    "answer": {
+      "english": "The IEPF authority is managed by the Ministry of Corporate Affairs, Government of India.",
+      "hinglish": "IEPF authority ka operation Bharat sarkar ke Ministry of Corporate Affairs ke under hota hai.",
+      "hindi": "IEPF प्राधिकरण का संचालन भारत सरकार के कॉर्पोरेट कार्य मंत्रालय (Ministry of Corporate Affairs) द्वारा किया जाता है।"
+    }
+  },
+  {
+    "id": 10,
+    "question": {
+      "english": "Are IEPF shares available with the company?",
+      "hinglish": "Kya IEPF shares company ke paas hote hain?",
+      "hindi": "क्या IEPF शेयर कंपनी के पास होते हैं?"
+    },
+    "answer": {
+      "english": "No, once shares are transferred to IEPF, they are no longer held by the company. They are under the custody of the IEPF authority.",
+      "hinglish": "Nahi, ek baar shares IEPF mein transfer ho jaayein to wo company ke paas nahi rehte, balki IEPF authority ke custody mein chale jaate hain.",
+      "hindi": "नहीं, एक बार जब शेयर IEPF को ट्रांसफर हो जाते हैं तो वे कंपनी के पास नहीं रहते, बल्कि IEPF प्राधिकरण की कस्टडी में चले जाते हैं।"
+    }
+  },
+  {
+    "id": 11,
+    "question": {
+      "english": "When are shares transferred to the IEPF account?",
+      "hinglish": "Shares kab IEPF account mein transfer hote hain?",
+      "hindi": "शेयर कब IEPF खाते में ट्रांसफर होते हैं?"
+    },
+    "answer": {
+      "english": "Shares are transferred to the IEPF account after seven years of remaining unclaimed. This period starts from the date the dividend was declared or the shares were due for transfer.",
+      "hinglish": "Jab kisi dividend ya share pe 7 saal tak koi claim nahi aata, tab woh IEPF account mein transfer ho jaata hai. Yeh period us din se count hota hai jab dividend declare hua ya share transfer hone layak bana tha.",
+      "hindi": "जब किसी लाभांश या शेयर पर सात वर्षों तक कोई दावा नहीं किया गया हो, तब वे IEPF खाते में ट्रांसफर कर दिए जाते हैं। यह अवधि उस तिथि से शुरू होती है जब लाभांश घोषित किया गया था या शेयर ट्रांसफर के योग्य हुए थे।"
+    }
+  },
+  {
+    "id": 12,
+    "question": {
+      "english": "What is the time period to claim shares in case shares are transferred to IEPF?",
+      "hinglish": "Agar shares IEPF mein transfer ho jaayein to claim karne ki time limit kya hai?",
+      "hindi": "यदि शेयर IEPF में ट्रांसफर हो जाएं तो उन्हें क्लेम करने की समयसीमा क्या है?"
+    },
+    "answer": {
+      "english": "An investor can claim their shares from the IEPF anytime after they have been transferred. There is no specific time limit as such.",
+      "hinglish": "Investor kabhi bhi IEPF se apne shares claim kar sakta hai. Iske liye koi fixed time limit nahi hai.",
+      "hindi": "निवेशक IEPF से अपने शेयर कभी भी क्लेम कर सकते हैं, इसकी कोई निर्धारित समयसीमा नहीं है।"
+    }
+  },
+  {
+    "id": 13,
+    "question": {
+      "english": "What are Unclaimed Shares?",
+      "hinglish": "Unclaimed Shares kya hote hain?",
+      "hindi": "Unclaimed Shares क्या होते हैं?"
+    },
+    "answer": {
+      "english": "Unclaimed shares are shares that have not been claimed by the shareholders. This can happen due to a number of reasons, including death, change of address, or loss of share certificates",
+      "hinglish": "Unclaimed shares woh hote hain jinpe shareholder ne claim nahi kiya hota — ye death, address change ya share certificate kho jaane ki wajah se ho sakta hai.",
+      "hindi": "Unclaimed Shares वे शेयर होते हैं जिन पर शेयरधारक द्वारा दावा नहीं किया गया हो। ऐसा मृत्यु, पता बदलने या शेयर सर्टिफिकेट खो जाने के कारण हो सकता है।"
+    }
+  },
+  {
+    "id": 14,
+    "question": {
+      "english": "What is Unclaimed Dividend?",
+      "hinglish": "Unclaimed Dividend kya hota hai?",
+      "hindi": "Unclaimed Dividend क्या होता है?"
+    },
+    "answer": {
+      "english": "An unclaimed dividend is a dividend that a company has declared but a shareholder has not collected within the specified time.",
+      "hinglish": "Unclaimed dividend woh hota hai jo company ne declare kiya ho lekin shareholder ne usse receive nahi kiya ho specified time ke andar.",
+      "hindi": "Unclaimed Dividend वह लाभांश होता है जिसे कंपनी ने घोषित किया हो लेकिन शेयरधारक ने निर्दिष्ट समय के भीतर प्राप्त नहीं किया हो।"
+    }
+  },
+  {
+    "id": 15,
+    "question": {
+      "english": "What are Physical Shares?",
+      "hinglish": "Physical Shares kya hote hain?",
+      "hindi": "Physical Shares क्या होते हैं?"
+    },
+    "answer": {
+      "english": "Physical shares are share certificates issued in paper form as evidence of ownership. These are different from dematerialized shares which are held electronically.",
+      "hinglish": "Physical shares paper certificate ke form mein diye jaate hain. Ye demat shares se alag hote hain jo electronic form mein hote hain.",
+      "hindi": "Physical Shares वे शेयर होते हैं जो कागज के प्रमाणपत्र के रूप में जारी किए जाते हैं। ये डिमैट शेयरों से अलग होते हैं जो इलेक्ट्रॉनिक रूप में रखे जाते हैं।"
+    }
+  },
+  {
+    "id": 16,
+    "question": {
+      "english": "When are shares transferred to the Suspense Account?",
+      "hinglish": "Shares Suspense Account mein kab transfer hote hain?",
+      "hindi": "शेयर Suspense Account में कब ट्रांसफर होते हैं?"
+    },
+    "answer": {
+      "english": "Shares are transferred to a Suspense Account when dividends remain unclaimed or unpaid for seven consecutive years or more. This is done in accordance with the Investor Education and Protection Fund (IEPF) Rules.",
+      "hinglish": "Agar 7 saal ya usse zyada time tak dividend claim nahi kiya gaya ho to shares Suspense Account mein transfer ho jaate hain, as per IEPF rules.",
+      "hindi": "यदि लगातार सात वर्षों या उससे अधिक समय तक लाभांश का दावा नहीं किया गया हो, तो शेयर Suspense Account में ट्रांसफर कर दिए जाते हैं। यह प्रक्रिया IEPF नियमों के अनुसार होती है।"
+    }
+  },
+  {
+    "id": 17,
+    "question": {
+      "english": "What is the Face Value of Shares?",
+      "hinglish": "Share ki Face Value kya hoti hai?",
+      "hindi": "शेयर की Face Value क्या होती है?"
+    },
+    "answer": {
+      "english": "The face value of a share is the original price of a share when it's first issued by a company. It's also known as the nominal or par value.",
+      "hinglish": "Face Value woh moolya hota hai jis par share ko company ne first time issue kiya tha. Isse nominal value bhi kaha jaata hai.",
+      "hindi": "Face Value वह मूल मूल्य होता है जिस पर शेयर को कंपनी द्वारा पहली बार जारी किया गया होता है। इसे नाममात्र मूल्य या पार मूल्य भी कहा जाता है।"
+    }
+  },
+  {
+    "id": 18,
+    "question": {
+      "english": "Is the Number of Shares Increased if the company has Split its Face Value?",
+      "hinglish": "Agar company ne Face Value split kiya ho to kya share quantity badhti hai?",
+      "hindi": "यदि कंपनी ने Face Value को Split किया हो तो क्या शेयरों की संख्या बढ़ जाती है?"
+    },
+    "answer": {
+      "english": "Yes, when a company splits its face value (e.g., a share with a face value of Rs. 10 is split into 2 shares of Rs. 5 each), the number of shares increases proportionally, but the total value remains the same.",
+      "hinglish": "Haan, agar ₹10 ka share ₹5 mein split hota hai to share ki quantity double ho jaati hai. Value wahi rehti hai.",
+      "hindi": "हाँ, जब कंपनी Face Value को Split करती है (जैसे ₹10 का शेयर दो ₹5 के शेयरों में), तो शेयरों की संख्या अनुपातिक रूप से बढ़ जाती है लेकिन कुल मूल्य वही रहता है।"
+    }
+  },
+  {
+    "id": 19,
+    "question": {
+      "english": "Is the Number of Shares Increased if the company has declared a Bonus Issue?",
+      "hinglish": "Agar company ne Bonus Issue declare kiya ho to kya shares badhte hain?",
+      "hindi": "यदि कंपनी ने Bonus Issue घोषित की हो तो क्या शेयरों की संख्या बढ़ती है?"
+    },
+    "answer": {
+      "english": "Yes, in a bonus issue, the company allots additional shares to existing shareholders for free, based on their existing holdings. This increases the number of shares held by each shareholder.",
+      "hinglish": "Haan, Bonus Issue mein company free shares deti hai existing shareholders ko. Isse unke paas shares zyada ho jaate hain.",
+      "hindi": "हाँ, Bonus Issue में कंपनी मौजूदा शेयरधारकों को उनके होल्डिंग के आधार पर अतिरिक्त शेयर मुफ्त में देती है। इससे हर शेयरधारक के पास शेयरों की संख्या बढ़ जाती है।"
+    }
+  },
+  {
+    "id": 20,
+    "question": {
+      "english": "Can we directly file an IEPF Form for Claiming Shares?",
+      "hinglish": "Kya hum direct IEPF form bhar ke share claim kar sakte hain?",
+      "hindi": "क्या हम सीधे IEPF फॉर्म भरकर शेयर क्लेम कर सकते हैं?"
+    },
+    "answer": {
+      "english": "Yes, you can directly file an IEPF Form (IEPF-5) for claiming your shares or dividend from the IEPF website.",
+      "hinglish": "Haan, aap IEPF-5 form online bhar ke IEPF website se apne shares ya dividend ka claim kar sakte hain.",
+      "hindi": "हाँ, आप सीधे IEPF-5 फॉर्म भरकर IEPF वेबसाइट के माध्यम से अपने शेयर या लाभांश का दावा कर सकते हैं।"
+    }
+  },
+  {
+    "id": 21,
+    "question": {
+      "english": "What to do with the shares of your Father/Grandfather?",
+      "hinglish": "Apne father/dada ke shares ke liye kya karna chahiye?",
+      "hindi": "अपने पिता/दादा के शेयरों के लिए क्या करना चाहिए?"
+    },
+    "answer": {
+      "english": "If the shares are still in physical form and not claimed for a long time, you need to first get them transmitted in your name through a legal process (like a will or succession certificate). After that, you can claim them from the company or IEPF, as applicable.",
+      "hinglish": "Agar shares physical form mein hain to pehle legal process (like will ya succession certificate) se unhe apne naam transfer karwana padega. Fir claim kiya ja sakta hai.",
+      "hindi": "यदि शेयर अभी भी फिजिकल फॉर्म में हैं और लंबे समय से क्लेम नहीं किए गए हैं, तो आपको पहले कानूनी प्रक्रिया (जैसे वसीयत या उत्तराधिकार प्रमाणपत्र) के माध्यम से उन्हें अपने नाम पर ट्रांसफर कराना होगा। उसके बाद आप कंपनी या IEPF से उन्हें क्लेम कर सकते हैं।"
+    }
+  },
+  {
+    "id": 22,
+    "question": {
+      "english": "Who is RTA?",
+      "hinglish": "RTA kaun hota hai?",
+      "hindi": "RTA कौन होता है?"
+    },
+    "answer": {
+      "english": "RTA stands for Registrar and Transfer Agent. They are appointed by companies to maintain shareholder records, handle share transfers, dividend payments, and other related activities.",
+      "hinglish": "RTA ka matlab Registrar and Transfer Agent hota hai. Ye companies ke shareholder records manage karte hain aur transfers, dividends jaise kaam sambhalte hain.",
+      "hindi": "RTA का मतलब Registrar and Transfer Agent होता है। कंपनियाँ इन्हें शेयरधारकों के रिकॉर्ड को बनाए रखने और शेयर ट्रांसफर, लाभांश भुगतान जैसे कार्यों के लिए नियुक्त करती हैं।"
+    }
+  },
+  {
+    "id": 23,
+    "question": {
+      "english": "What does RTA Do?",
+      "hinglish": "RTA kya karta hai?",
+      "hindi": "RTA क्या करता है?"
+    },
+    "answer": {
+      "english": "RTA's primary responsibilities include:\nMaintaining shareholder records.\nProcessing share transfers and transmissions.\nHandling dividend payments and reconciliation.\nIssuing share certificates (in physical form).\nDealing with shareholder queries and grievances.",
+      "hinglish": "- Shareholder record maintain karta hai\n- Share transfer aur transmission process handle karta hai\n- Dividend distribute karta hai\n- Physical share certificate issue karta hai\n- Complaints ka resolution karta hai",
+      "hindi": "RTA की मुख्य जिम्मेदारियाँ हैं:\n- शेयरधारकों के रिकॉर्ड का रख-रखाव\n- शेयर ट्रांसफर व ट्रांसमिशन की प्रक्रिया\n- लाभांश भुगतान\n- फिजिकल शेयर सर्टिफिकेट जारी करना\n- शेयरधारकों की शिकायतों का समाधान करना"
+    }
+  },
+  {
+    "id": 24,
+    "question": {
+      "english": "What is a Dividend Warrant?",
+      "hinglish": "Dividend Warrant kya hota hai?",
+      "hindi": "Dividend Warrant क्या होता है?"
+    },
+    "answer": {
+      "english": "A dividend warrant is a document issued by a company to a shareholder as a payment for dividends. It is like a cheque and can be encashed at a bank.",
+      "hinglish": "Dividend Warrant ek aisa document hota hai jise company dividend pay karne ke liye issue karti hai — yeh basically ek cheque hota hai jo bank mein deposit hota hai.",
+      "hindi": "Dividend Warrant वह दस्तावेज होता है जिसे कंपनी लाभांश के भुगतान हेतु शेयरधारक को जारी करती है। यह एक तरह का चेक होता है जिसे बैंक में जमा किया जा सकता है।"
+    }
+  },
+  {
+    "id": 25,
+    "question": {
+      "english": "What can we do if the Folio Number is not available but the Dividend Warrant is Available?",
+      "hinglish": "Agar Folio Number nahi pata ho lekin Dividend Warrant ho to kya karein?",
+      "hindi": "यदि Folio Number उपलब्ध न हो पर Dividend Warrant हो तो क्या करें?"
+    },
+    "answer": {
+      "english": "You should contact the company's RTA with the dividend warrant and request them to provide you with the folio number. They should be able to trace it based on the information on the warrant.",
+      "hinglish": "Aap RTA se contact karke apna Dividend Warrant dikha kar Folio Number trace kar sakte hain.",
+      "hindi": "आप कंपनी के RTA से संपर्क करें और Dividend Warrant प्रस्तुत करें। वे उस जानकारी के आधार पर आपका Folio Number पता कर सकते हैं।"
+    }
+  },
+  {
+    "id": 26,
+    "question": {
+      "english": "What is a Folio Number?",
+      "hinglish": "Folio Number kya hota hai?",
+      "hindi": "Folio Number क्या होता है?"
+    },
+    "answer": {
+      "english": "A folio number is a unique identification number assigned to each shareholder in the company's register. It helps in tracking their shareholding and transactions.",
+      "hinglish": "Folio Number ek unique ID hoti hai jo har shareholder ko di jaati hai company ke record mein. Isse shares track kiye ja sakte hain.",
+      "hindi": "Folio Number एक अद्वितीय पहचान संख्या होती है जो प्रत्येक शेयरधारक को कंपनी के रिकॉर्ड में दी जाती है। इससे उनके शेयर होल्डिंग को ट्रैक किया जा सकता है।"
+    }
+  },
+  {
+    "id": 27,
+    "question": {
+      "english": "What is a Certificate Number?",
+      "hinglish": "Pramanpatra sankhya kya hai?",
+      "hindi": "प्रमाणपत्र संख्या क्या है?"
+    },
+    "answer": {
+      "english": "A certificate number is a unique number assigned to each share certificate issued in physical form. It helps in identifying and tracking individual share certificates.",
+      "hinglish": "Pramanpatra sankhya har physical share certificate par likhi ek unique number hoti hai. Isse certificate ki pehchaan aur tracking hoti hai.",
+      "hindi": "प्रमाणपत्र संख्या प्रत्येक भौतिक शेयर प्रमाणपत्र को दी गई एक अद्वितीय संख्या होती है। यह प्रमाणपत्र की पहचान और ट्रैकिंग में सहायक होती है।"
+    }
+  },
+  {
+    "id": 28,
+    "question": {
+      "english": "What is the 1st Step taken for Claiming Shares?",
+      "hinglish": "Share claim karne ka pehla step kya hai?",
+      "hindi": "शेयर क्लेम करने के लिए पहला कदम क्या है?"
+    },
+    "answer": {
+      "english": "The first step is to ascertain the status of the shares (whether they are with the company, in the suspense account, or transferred to IEPF). Then, you need to gather all the necessary documents related to your shareholding and carry out KYC updation.",
+      "hinglish": "Sabse pehle yeh pata lagana hai ki aapke shares kahan hain (company ke paas, suspense account mein ya IEPF mein transfer ho chuke hain). Uske baad related documents jama karke KYC update karna hota hai.",
+      "hindi": "पहला कदम यह जानना है कि आपके शेयर कहाँ हैं (कंपनी के पास, सस्पेंस खाते में या IEPF में ट्रांसफर हो चुके हैं)। इसके बाद संबंधित दस्तावेज़ एकत्र करें और KYC अपडेट कराएं।"
+    }
+  },
+  {
+    "id": 29,
+    "question": {
+      "english": "What is KYC Updation? What documents are required to submit for KYC Updation?",
+      "hinglish": "KYC update kya hota hai? Kaunse documents dene hote hain?",
+      "hindi": "KYC अपडेट क्या है? इसके लिए कौन-कौन से दस्तावेज़ देने होते हैं?"
+    },
+    "answer": {
+      "english": "KYC (Know Your Customer) updation is the process of verifying the identity and address of the investor. Generally, you will need:\nIdentity proof (PAN card, Aadhaar card, Voter ID, etc.)\nAddress proof (Aadhaar card, Passport, Utility bills, etc.)\nCancelled cheque or bank account details\nProof of shareholding (share certificates, dividend warrants, etc.)",
+      "hinglish": "KYC (Know Your Customer) ek process hai jisse investor ki identity aur address verify kiya jata hai. Zaruri documents:\n- Pehchaan proof (PAN, Aadhaar, Voter ID etc.)\n- Address proof (Aadhaar, Passport, Bijli bill etc.)\n- Cancelled cheque ya bank details\n- Shareholding proof (Share certificate, dividend warrant etc.)",
+      "hindi": "KYC (Know Your Customer) अपडेट एक प्रक्रिया है जिससे निवेशक की पहचान और पता सत्यापित किया जाता है। आवश्यक दस्तावेज़:\n- पहचान प्रमाण (PAN कार्ड, आधार कार्ड, वोटर ID आदि)\n- पता प्रमाण (आधार कार्ड, पासपोर्ट, बिजली का बिल आदि)\n- रद्द चेक या बैंक विवरण\n- शेयरधारिता का प्रमाण (शेयर सर्टिफिकेट, डिविडेंड वारंट आदि)"
+    }
+  },
+  {
+    "id": 30,
+    "question": {
+      "english": "Is a Demat Account Compulsory for Claiming back shares?",
+      "hinglish": "Kya share claim karne ke liye Demat account zaruri hai?",
+      "hindi": "क्या शेयर क्लेम करने के लिए डिमैट खाता अनिवार्य है?"
+    },
+    "answer": {
+      "english": "Yes, a Demat account is now mandatory for claiming shares from IEPF. The shares will be transferred to your Demat account after approval of your claim.",
+      "hinglish": "Haan, ab IEPF se share claim karne ke liye valid demat account hona mandatory hai. Shares directly aapke demat account mein transfer hote hain.",
+      "hindi": "हाँ, अब IEPF से शेयर क्लेम करने के लिए डिमैट खाता अनिवार्य है। क्लेम स्वीकृत होने पर शेयर आपके डिमैट खाते में ट्रांसफर किए जाते हैं।"
+    }
+  },
+  {
+    "id": 31,
+    "question": {
+      "english": "What is a Client Master List?",
+      "hinglish": "Client Master List kya hoti hai?",
+      "hindi": "क्लाइंट मास्टर लिस्ट क्या होती है?"
+    },
+    "answer": {
+      "english": "A client master list is a document maintained by the Depository Participant (DP) that contains all the details of the Demat account holders, including their personal information, PAN, address, and Demat account details.",
+      "hinglish": "Client Master List ek document hota hai jo DP (Depository Participant) maintain karta hai. Isme demat account holder ka naam, PAN, address, aur account details hote hain.",
+      "hindi": "क्लाइंट मास्टर लिस्ट एक दस्तावेज़ होता है जिसे डिपॉजिटरी पार्टिसिपेंट (DP) द्वारा बनाए रखा जाता है, जिसमें डिमैट अकाउंट धारक की व्यक्तिगत जानकारी, PAN, पता और खाता विवरण शामिल होता है।"
+    }
+  },
+  {
+    "id": 32,
+    "question": {
+      "english": "What happens to the Unclaimed Dividend Amount?",
+      "hinglish": "Unclaimed dividend ka kya hota hai?",
+      "hindi": "अप्राप्त लाभांश राशि का क्या होता है?"
+    },
+    "answer": {
+      "english": "if a dividend remains unclaimed by a shareholder, it is transferred to the Investor Education and Protection Fund (IEPF) after a specified period (usually seven years), where it can be claimed by the rightful owner by submitting a claim form to the relevant authorities managed by the Ministry of Corporate Affairs; essentially, the unclaimed dividend is not lost but held in a fund for potential future claims by the shareholder.",
+      "hinglish": "Agar shareholder ne declared dividend specified time mein receive nahi kiya, to woh amount 7 saal ke baad IEPF mein transfer ho jaata hai. Baad mein claim kiya ja sakta hai.",
+      "hindi": "यदि कोई लाभांश शेयरधारक द्वारा निर्धारित समय में प्राप्त नहीं किया जाता है, तो वह राशि सात वर्षों के बाद IEPF में ट्रांसफर कर दी जाती है। लाभार्थी इस राशि को उचित दावा पत्र भरकर वापस प्राप्त कर सकता है।"
+    }
+  },
+  {
+    "id": 33,
+    "question": {
+      "english": "How and where to Open Demat Account?",
+      "hinglish": "Demat account kaise aur kahan kholen?",
+      "hindi": "डिमैट खाता कैसे और कहाँ खोलें?"
+    },
+    "answer": {
+      "english": "You can open a Demat account with a SEBI-registered Depository Participant (DP). Many brokerage firms, banks, and financial institutions act as DPs. The process usually involves filling out an account opening form, submitting KYC documents (PAN card, address proof, etc.), and agreeing to the terms and conditions. You can open a Demat account online or offline.",
+      "hinglish": "Aap kisi SEBI registered DP ke through online ya offline demat account khol sakte hain. Iske liye KYC documents, form aur aapki approval chahiye hoti hai.",
+      "hindi": "आप किसी SEBI-पंजीकृत डिपॉजिटरी पार्टिसिपेंट (DP) के माध्यम से डिमैट खाता खोल सकते हैं। यह प्रक्रिया ऑनलाइन या ऑफलाइन हो सकती है और इसके लिए KYC दस्तावेज़, फॉर्म और सहमति की आवश्यकता होती है।"
+    }
+  },
+  {
+    "id": 34,
+    "question": {
+      "english": "Does shares jointly held by people require their demat account in joint name? How many Holders in One demat account?",
+      "hinglish": "Agar shares joint naam mein ho to kya joint demat account zaruri hai? Ek demat account mein kitne holders ho sakte hain?",
+      "hindi": "यदि शेयर संयुक्त रूप से होल्ड किए गए हैं तो क्या संयुक्त नाम में डिमैट खाता आवश्यक है? एक डिमैट खाते में कितने धारक हो सकते हैं?"
+    },
+    "answer": {
+      "english": "Yes, shares held jointly should ideally be reflected in a Demat account held jointly by the same individuals. More than one individual can hold a Demat account jointly. The exact limit on the number of joint holders may vary by DP, but it is usually a reasonable number (e.g., up to three).",
+      "hinglish": "Haan, joint shares ke liye joint holders ko milkar demat account open karna padta hai. Usually ek demat account mein 2 ya 3 holders ho sakte hain.",
+      "hindi": "हाँ, संयुक्त शेयरों के लिए वही व्यक्ति संयुक्त रूप से डिमैट खाता खोलें जिनके नाम पर शेयर हैं। आम तौर पर 2-3 व्यक्ति एक डिमैट खाता संयुक्त रूप से होल्ड कर सकते हैं।"
+    }
+  },
+  {
+    "id": 35,
+    "question": {
+      "english": "How to Download Client Master List from Demat account?",
+      "hinglish": "Demat account se Client Master List kaise download karein?",
+      "hindi": "डिमैट खाते से क्लाइंट मास्टर लिस्ट कैसे डाउनलोड करें?"
+    },
+    "answer": {
+      "english": "You can usually download the client master list (detailing your holdings) from your DP's online portal or by contacting their customer service. The process varies depending on the DP.",
+      "hinglish": "Apne DP ki website ya portal par login karke CML download kar sakte hain. Ya fir DP ke customer service se contact karke bhi mil sakti hai.",
+      "hindi": "आप अपने DP की वेबसाइट या पोर्टल पर जाकर क्लाइंट मास्टर लिस्ट डाउनलोड कर सकते हैं या ग्राहक सेवा से संपर्क करके प्राप्त कर सकते हैं। प्रक्रिया DP पर निर्भर करती है।"
+    }
+  },
+  {
+    "id": 36,
+    "question": {
+      "english": "What are basic documents needed for NRI?",
+      "hinglish": "NRI ke liye kaunse documents chahiye?",
+      "hindi": "NRI के लिए आवश्यक मूल दस्तावेज़ क्या हैं?"
+    },
+    "answer": {
+      "english": "NRIs need to provide documents like their PAN card, overseas address proof, Indian address proof (if applicable), passport, visa details, PIO or OCI card (if applicable), and any other documents specified by the DP and regulations.\nISR Forms & Share Certificates",
+      "hinglish": "NRI ko PAN, Indian aur foreign address proof (agar applicable ho), passport, visa, PIO/OCI card (agar applicable ho) aur other valid documents dene hote hain.",
+      "hindi": "NRI को PAN कार्ड, विदेशी और भारतीय पता प्रमाण (यदि लागू हो), पासपोर्ट, वीजा विवरण, PIO/OCI कार्ड (यदि लागू हो), और अन्य प्रासंगिक दस्तावेज़ प्रस्तुत करने होते हैं।"
+    }
+  },
+  {
+    "id": 37,
+    "question": {
+      "english": "What is ISR 1 Form?",
+      "hinglish": "ISR-1 Form kya hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Form ISR-1 is an Investor Service Request form that allows investors to request changes to their PAN, KYC details, or nominations. It is used to register or update details for securities held in physical form, such as shares, bonds, or debentures",
+      "hinglish": "ISR-1 ek Investor Service Request Form hai jo PAN, KYC details ya nomination update karne ke liye use hota hai, especially physical securities ke cases mein.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 38,
+    "question": {
+      "english": "What is ISR 2 Form? It should be attested by Bank Manager?",
+      "hinglish": "ISR-2 Form kya hai? Kya isey bank manager se verify karana zaruri hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Form ISR-2 is a bank form that verifies the signature of a securities holder. It is used to update the signature of a securities holder. The bank manager attests the form by confirming that the signature matches the one on file with the bank.",
+      "hinglish": "ISR-2 ek form hai jisme bank manager investor ke signature ko certify karta hai. Yeh ensure karta hai ki aapke bank mein diye gaye signature match karte hain.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 39,
+    "question": {
+      "english": "Who can be Nominee?",
+      "hinglish": "Nominee kaun ho sakta hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "A nominee can be a family member, friend, or any trusted person. The person who appoints the nominee is called the policyholder or account holder..",
+      "hinglish": "Nominee koi bhi family member, friend ya trusted person ho sakta hai jise aap apne shares ke liye nominate karte hain.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 40,
+    "question": {
+      "english": "What is ISR 3 Form?",
+      "hinglish": "ISR-3 Form kya hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Form ISR-3 is a declaration form for opting out of nomination for physical securities in listed companies. It is used by investors who do not want to name a person to receive their securities in the event of their death.",
+      "hinglish": "ISR-3 ek declaration form hai jisme investor batata hai ki woh nomination nahi karna chahta. Yeh bhi physical securities ke liye hota hai.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 41,
+    "question": {
+      "english": "Is SH 13 Form for Registering Nominee in the Folio Number?",
+      "hinglish": "Kya SH-13 Form folio number ke liye nominee register karne ke liye hota hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Yes, \"SH 13 Form\" is specifically used to register a nominee for a particular folio number, meaning it is the form used to designate who will inherit your shares in the event of your death, linked to your specific folio number in a company's shareholding records.",
+      "hinglish": "Haan, SH-13 ka use kisi specific folio ke liye nominee register karne ke liye hota hai.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 42,
+    "question": {
+      "english": "We have to submit both ISR 3 and SH 13 Form?",
+      "hinglish": "Kya dono forms ISR-3 aur SH-13 submit karne padte hain?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Yes, you may need to submit both Form SH-13 and Form ISR-3, depending on whether you want to nominate someone or opt out of nomination.",
+      "hinglish": "Nahi, aapko ya to SH-13 ya ISR-3 mein se ek submit karna hota hai, yeh depend karta hai ki aap nomination karna chahte hain ya nahi.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 43,
+    "question": {
+      "english": "Which documents are required when there is a change of Surname of Holder?",
+      "hinglish": "Agar surname change ho jaye to kaunse documents lagenge?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Documents typically required include the old share certificate(s), a copy of the marriage certificate (for married women), a copy of the gazette notification (if applicable), identity proof, address proof, and a letter explaining the change.",
+      "hinglish": "Old share certificates, marriage certificate (agar married woman hai), gazette notification (agar applicable ho), ID proof, address proof aur ek letter dena padta hai.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 44,
+    "question": {
+      "english": "Is Marriage Certificate a Valid document for Name change of Female in occasion of Marriage?",
+      "hinglish": "Kya marriage certificate valid proof hai name change ke liye?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Yes, a marriage certificate is generally considered a valid document for a name change for a female after marriage.",
+      "hinglish": "Haan, marriage ke baad name change ke liye marriage certificate ek valid proof mana jata hai.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 45,
+    "question": {
+      "english": "When Name change Gazette is Needed?",
+      "hinglish": "Name change ke liye gazette notification kab zaruri hoti hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "A gazette notification is usually required when the name change is due to reasons other than marriage (e.g., personal choice, divorce). It is also sometimes required even after marriage, depending on the company's specific requirements.",
+      "hinglish": "Gazette notification tab zaruri hoti hai jab name change kisi personal reason, divorce, ya other non-marriage reason se hua ho.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 46,
+    "question": {
+      "english": "In case of married female, whether passport having name of spouse is a valid document for proof of name change?",
+      "hinglish": "Kya married woman ke passport mein husband ka naam hona valid name change proof hai?",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "A passport with the spouse's name is generally accepted as supporting proof of a name change after marriage.",
+      "hinglish": "Haan, agar married woman ke passport mein husband ka naam likha hai to usse valid name change proof mana jata hai.",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 47,
+    "question": {
+      "english": "What to do when Share certificate is not available?",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "If a share certificate is lost, you need to apply for a duplicate share certificate by following the procedure mentioned for lost certificates (ISR forms, affidavit, indemnity bond, advertisement, etc.).",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 48,
+    "question": {
+      "english": "What is the procedure for duplicate share for loss of share certificates?",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "The procedure involves filing an FIR with the police, submitting ISR forms (ISR-1, ISR-2, and possibly ISR-4), providing an affidavit and indemnity bond, publishing a notice in the newspaper, and paying the required fees.",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 49,
+    "question": {
+      "english": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond?",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Yes, an affidavit and indemnity bond are mandatory for obtaining a duplicate share certificate.",
+      "hinglish": "",
+      "hindi": ""
+    }
+  },
+  {
+    "id": 50,
+    "question": {
+      "english": "For Issuing Duplicate share certificate we have to submit Affidavit and Indemnity Bond, It should be print on stamp paper and Duly Notarized?",
+      "hinglish": "",
+      "hindi": ""
+    },
+    "answer": {
+      "english": "Yes, the affidavit and indemnity bond should be printed on the appropriate stamp paper (as per the stamp duty applicable in your state) and duly notarized.",
+      "hinglish": "",
+      "hindi": ""
+    }
   }
 ]

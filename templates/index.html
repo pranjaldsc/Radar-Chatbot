@@ -1,18 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
-    <link rel="stylesheet" href="static\css\styles.css">
+  <title>Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; }
+    #chatbox { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; margin-bottom: 10px; }
+    .msg { margin: 5px 0; }
+    .user { font-weight: bold; color: blue; }
+    .bot { font-weight: bold; color: green; }
+  </style>
 </head>
 <body>
-    <div class="chat-container">
-        <h2>AI Chatbot</h2>
-        <div id="chat-box"></div>
-        <input type="text" id="user-input" placeholder="Type your message...">
-        <button onclick="sendMessage()">Send</button>
-    </div>
-    <script src="static\js\script.js"></script>
+  <h2>Radar Chatbot</h2>
+  <div id="chatbox"></div>
+
+  <select id="language">
+    <option value="">--Select Language--</option>
+    <option value="english">English</option>
+    <option value="hinglish">Hinglish</option>
+    <option value="hindi">Hindi</option>
+  </select>
+  <button onclick="setLanguage()">Set Language</button>
+
+  <br><br>
+  <input type="text" id="message" placeholder="Type your message..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    async function setLanguage() {
+      let lang = document.getElementById("language").value;
+      if (!lang) return alert("Please select a language");
+      let res = await fetch("/set_language", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ language: lang })
+      });
+      let data = await res.json();
+      addMessage("bot", data.message);
+    }
+
+    async function sendMessage() {
+      let msg = document.getElementById("message").value;
+      if (!msg) return;
+      addMessage("user", msg);
+      document.getElementById("message").value = "";
+
+      let res = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+      });
+      let data = await res.json();
+      addMessage("bot", data.response);
+    }
+
+    function addMessage(sender, text) {
+      let chatbox = document.getElementById("chatbox");
+      let div = document.createElement("div");
+      div.className = "msg " + sender;
+      div.innerHTML = `<span class="${sender}">${sender.toUpperCase()}:</span> ${text}`;
+      chatbox.appendChild(div);
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+  </script>
 </body>
 </html>
